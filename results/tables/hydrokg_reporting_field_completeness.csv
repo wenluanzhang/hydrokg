@@ -1,0 +1,12 @@
+field,reported_count,missing_count,reported_fraction
+active_material_raw,159,0,1.0
+device_structure,159,0,1.0
+primary_mobile_ion,159,0,1.0
+top_electrode,159,0,1.0
+bottom_electrode,159,0,1.0
+voc_V,159,0,1.0
+jsc_uA_cm2,159,0,1.0
+power_density_uW_cm2,108,51,0.6792452830188679
+internal_resistance_Mohm,112,47,0.7044025157232704
+stability_time_min,157,2,0.9874213836477987
+rh_percent,126,33,0.7924528301886793

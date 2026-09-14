@@ -1,0 +1,289 @@
+{
+  "rule_set_name": "HydroKG R-Centered Pathway Rules",
+  "rule_set_version": "1.0",
+  "status": "design",
+  "description": "Manually defined, physics-informed pathway rule designs for later device-context reasoning. These declarations are not an executable rule engine and do not establish causal relationships.",
+  "source_tables": [
+    "data/processed/hydrokg_r_centered_device_table.csv"
+  ],
+  "rules": [
+    {
+      "rule_id": "rule_connected_pore_ion_transport_v1",
+      "rule_name": "Connected-pore ion transport context",
+      "rule_type": "descriptive_pathway",
+      "description": "Identifies porous, low-resistance device contexts that are consistent with connected ion-transport pathways.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "structure_class",
+            "operator": "equals",
+            "value": "porous"
+          },
+          {
+            "field": "r_bin",
+            "operator": "equals",
+            "value": "low_R"
+          }
+        ]
+      },
+      "activates_pathway": "connected_pore_ion_transport_pathway",
+      "warning_flags": [],
+      "design_variables": [
+        "pore_connectivity",
+        "ionic_conductivity",
+        "electrolyte_concentration",
+        "electrode_spacing"
+      ],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "electrode_spacing",
+        "electrolyte_identity",
+        "electrolyte_concentration",
+        "humidity"
+      ],
+      "interpretation_note": "Porous structure and low measured resistance support evaluation of this pathway but do not prove that pore connectivity caused the resistance regime."
+    },
+    {
+      "rule_id": "rule_hydrated_network_ionic_conduction_v1",
+      "rule_name": "Hydrated-network ionic conduction context",
+      "rule_type": "descriptive_pathway",
+      "description": "Identifies hydrogel-containing, low-resistance contexts consistent with continuous hydrated ionic conduction.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "structure_class",
+            "operator": "in",
+            "value": [
+              "hydrogel",
+              "hydrogel + film",
+              "hydrogel + porous"
+            ]
+          },
+          {
+            "field": "r_bin",
+            "operator": "equals",
+            "value": "low_R"
+          }
+        ]
+      },
+      "activates_pathway": "hydrated_network_ionic_conduction_pathway",
+      "warning_flags": [],
+      "design_variables": [
+        "hydrated_pathway_continuity",
+        "ionic_conductivity",
+        "electrolyte_concentration",
+        "film_thickness"
+      ],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "film_thickness",
+        "humidity",
+        "electrolyte_identity",
+        "electrolyte_concentration"
+      ],
+      "interpretation_note": "Hydrogel structure and low resistance are compatible with hydrated-network conduction, but direct transport characterization is required for mechanistic attribution."
+    },
+    {
+      "rule_id": "rule_biomass_fiber_capillary_v1",
+      "rule_name": "Biomass-fiber capillary context",
+      "rule_type": "descriptive_pathway",
+      "description": "Identifies low-resistance biomass device contexts in which fiber-scale capillary transport may be relevant.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "material_class",
+            "operator": "equals",
+            "value": "biomass"
+          },
+          {
+            "field": "r_bin",
+            "operator": "equals",
+            "value": "low_R"
+          }
+        ]
+      },
+      "activates_pathway": "biomass_fiber_capillary_pathway",
+      "warning_flags": [],
+      "design_variables": [
+        "pore_connectivity",
+        "hydrated_pathway_continuity",
+        "ionic_conductivity",
+        "electrode_spacing"
+      ],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "device_area",
+        "electrode_spacing",
+        "humidity",
+        "stability_time"
+      ],
+      "interpretation_note": "Biomass classification and low resistance motivate capillary-pathway assessment; fiber alignment, pore continuity, and water-transport evidence remain necessary."
+    },
+    {
+      "rule_id": "rule_film_ion_concentration_gradient_v1",
+      "rule_name": "Film-based ion concentration gradient context",
+      "rule_type": "descriptive_pathway",
+      "description": "Identifies film-based devices assigned to an ion-concentration-gradient mechanism, with performance context retained for later reasoning.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "structure_class",
+            "operator": "in",
+            "value": [
+              "film",
+              "hydrogel + film"
+            ]
+          },
+          {
+            "field": "dominant_mechanism",
+            "operator": "contains",
+            "value": "ion_concentration_gradient"
+          },
+          {
+            "field": "high_power_flag",
+            "operator": "equals",
+            "value": true
+          }
+        ]
+      },
+      "activates_pathway": "film_based_ion_concentration_gradient_pathway",
+      "warning_flags": [],
+      "design_variables": [
+        "film_thickness",
+        "ionic_conductivity",
+        "electrolyte_concentration",
+        "electrode_spacing"
+      ],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "device_area",
+        "film_thickness",
+        "electrode_spacing",
+        "humidity",
+        "electrolyte_identity",
+        "electrolyte_concentration"
+      ],
+      "interpretation_note": "The assigned mechanism and high-power context support targeted comparison, but neither establishes the concentration gradient as the causal source of performance."
+    },
+    {
+      "rule_id": "rule_electrochemical_confounding_v1",
+      "rule_name": "Electrochemical control-needed context",
+      "rule_type": "warning_only",
+      "description": "Flags device contexts with auxiliary redox chemistry or metal electrodes that warrant electrochemical controls.",
+      "conditions": {
+        "match": "any",
+        "clauses": [
+          {
+            "field": "auxiliary_redox_present",
+            "operator": "equals",
+            "value": true
+          },
+          {
+            "field": "metal_electrode",
+            "operator": "equals",
+            "value": true
+          }
+        ]
+      },
+      "activates_pathway": null,
+      "warning_flags": [
+        "electrochemical_control_needed_warning"
+      ],
+      "design_variables": [
+        "electrode_symmetry_control",
+        "electrolyte_concentration"
+      ],
+      "required_reporting_items": [
+        "electrode_material",
+        "electrode_symmetry",
+        "electrolyte_identity",
+        "electrolyte_concentration",
+        "control_experiments",
+        "stability_time"
+      ],
+      "interpretation_note": "These indicators trigger a need for controls and cautious interpretation; they do not demonstrate that the reported output is electrochemical."
+    },
+    {
+      "rule_id": "rule_missing_r_reporting_gap_v1",
+      "rule_name": "Missing-resistance reporting-gap context",
+      "rule_type": "warning_only",
+      "description": "Identifies records missing internal-resistance information needed for R-centered pathway interpretation.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "r_bin",
+            "operator": "equals",
+            "value": "missing_R"
+          }
+        ]
+      },
+      "activates_pathway": null,
+      "warning_flags": [
+        "missing_R_warning",
+        "incomplete_reporting_warning"
+      ],
+      "design_variables": [],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "humidity",
+        "device_area",
+        "film_thickness",
+        "electrode_spacing",
+        "electrolyte_identity",
+        "electrolyte_concentration",
+        "electrode_material",
+        "electrode_symmetry",
+        "stability_time",
+        "control_experiments"
+      ],
+      "interpretation_note": "This rule records missing resistance evidence rather than a physical transport mechanism and should guide reporting checks before mechanistic conclusions."
+    },
+    {
+      "rule_id": "rule_missing_humidity_reporting_gap_v1",
+      "rule_name": "Missing-humidity reporting-gap context",
+      "rule_type": "warning_only",
+      "description": "Identifies records missing humidity information needed for R-centered pathway interpretation.",
+      "conditions": {
+        "match": "all",
+        "clauses": [
+          {
+            "field": "rh_percent",
+            "operator": "is_missing",
+            "value": null
+          }
+        ]
+      },
+      "activates_pathway": null,
+      "warning_flags": [
+        "missing_humidity_warning",
+        "incomplete_reporting_warning"
+      ],
+      "design_variables": [],
+      "required_reporting_items": [
+        "internal_resistance",
+        "power_density",
+        "humidity",
+        "device_area",
+        "film_thickness",
+        "electrode_spacing",
+        "electrolyte_identity",
+        "electrolyte_concentration",
+        "electrode_material",
+        "electrode_symmetry",
+        "stability_time",
+        "control_experiments"
+      ],
+      "interpretation_note": "This rule records missing humidity evidence rather than a physical transport mechanism and should guide reporting checks before mechanistic conclusions."
+    }
+  ]
+}

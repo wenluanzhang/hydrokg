@@ -1,0 +1,7 @@
+query_id,device_record_id,paper_doi,matched_concepts_json,warning_flags_json,path_count
+canonical_polymer_film_low_r_high_power,device_record_069,10.1039/C9EE00252A,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}",[],3
+canonical_polymer_film_low_r_high_power,device_record_071,10.1002/adfm.202308620,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}",[],3
+canonical_polymer_film_low_r_high_power,device_record_104,10.1002/adma.202312209,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_humidity_warning""]",3
+canonical_polymer_film_low_r_high_power,device_record_155,10.1002/advs.202300750,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}","[""electrochemical_control_needed_warning""]",3
+canonical_polymer_film_low_r_high_power,device_record_158,10.1002/adma.202103897,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}","[""electrochemical_control_needed_warning""]",3
+canonical_polymer_film_low_r_high_power,device_record_159,10.1039/D3EE00843F,"{""MaterialClass"":""polymer"",""PowerBin"":""high_power"",""RBin"":""low_R"",""StructureClass"":""film""}","[""electrochemical_control_needed_warning""]",3

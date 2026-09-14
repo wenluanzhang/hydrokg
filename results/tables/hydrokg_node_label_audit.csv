@@ -1,0 +1,12 @@
+node_type,node_count,empty_label_count,whitespace_label_count,duplicate_label_group_count,duplicate_label_node_count
+AsymmetryOrigin,7,0,0,0,0
+DeviceRecord,159,0,0,0,0
+Electrode,13,0,0,0,0
+Electrolyte,62,0,0,0,0
+Ion,17,0,0,0,0
+Material,142,0,0,0,0
+MaterialClass,8,0,0,0,0
+Mechanism,6,0,0,0,0
+Paper,159,0,0,0,0
+StructureClass,5,0,0,0,0
+WaterInteractionMode,3,0,0,0,0

@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Build artifacts
+build/
+dist/
+
+# LaTeX auxiliary files (source and final PDF remain tracked)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Temporary office files
+~$*
+*.tmp
+*.temp
+
+# Generated data and results
+#
+# data/processed/, results/figures/, results/tables/ and results/reports/ hold
+# generated output. Only the canonical HydroKG software/data release artifacts
+# are trackable; the negations below are enumerated per file from
+# docs/public_tree_proposal_v1.md so that no historical or exploratory output
+# becomes trackable and no required release artifact can silently disappear
+# from the repository. Manuscript, Supporting Information, and publication
+# figure/table assets intentionally have no negations and stay untracked.
+data/processed/*
+!data/processed/README.md
+!data/processed/hydrokg_edges.csv
+!data/processed/hydrokg_nodes.csv
+!data/processed/hydrokg_r_centered_device_table.csv
+results/figures/*
+results/tables/*
+!results/tables/README.md
+!results/tables/data_validation_summary.csv
+!results/tables/hydrokg_device_pathway_matches.csv
+!results/tables/hydrokg_device_reporting_completeness.csv
+!results/tables/hydrokg_device_rule_evidence.csv
+!results/tables/hydrokg_edge_type_counts.csv
+!results/tables/hydrokg_edge_type_degree_summary.csv
+!results/tables/hydrokg_graph_integrity_summary.csv
+!results/tables/hydrokg_integrated_edges.csv
+!results/tables/hydrokg_integrated_nodes.csv
+!results/tables/hydrokg_low_r_high_power_concept_counts.csv
+!results/tables/hydrokg_low_r_high_power_devices.csv
+!results/tables/hydrokg_low_r_high_power_pathway_summary.csv
+!results/tables/hydrokg_node_label_audit.csv
+!results/tables/hydrokg_node_type_counts.csv
+!results/tables/hydrokg_pathway_activation_counts.csv
+!results/tables/hydrokg_power_by_material_structure_summary.csv
+!results/tables/hydrokg_power_by_r_bin_summary.csv
+!results/tables/hydrokg_query_device_matches.csv
+!results/tables/hydrokg_query_execution_trace.csv
+!results/tables/hydrokg_query_high_power_warning_contexts.csv
+!results/tables/hydrokg_query_high_power_warning_summary.csv
+!results/tables/hydrokg_query_low_r_route_summary.csv
+!results/tables/hydrokg_query_low_r_routes.csv
+!results/tables/hydrokg_query_nacl_primary_na_device_matches.csv
+!results/tables/hydrokg_query_nacl_primary_na_paths.csv
+!results/tables/hydrokg_query_paths.csv
+!results/tables/hydrokg_query_pathway_requirements.csv
+!results/tables/hydrokg_query_shared_pathway_concepts.csv
+!results/tables/hydrokg_r_bin_by_material_structure_counts.csv
+!results/tables/hydrokg_r_bin_summary.csv
+!results/tables/hydrokg_r_by_material_class_summary.csv
+!results/tables/hydrokg_r_by_structure_class_summary.csv
+!results/tables/hydrokg_reporting_completeness_by_material_class.csv
+!results/tables/hydrokg_reporting_field_completeness.csv
+!results/tables/hydrokg_semantic_ablation_audit.csv
+!results/tables/hydrokg_semantic_edges.csv
+!results/tables/hydrokg_semantic_nodes.csv
+!results/tables/hydrokg_top_nodes_by_degree.csv
+!results/tables/hydrokg_warning_flag_counts.csv
+!results/tables/key_column_missing_summary.csv
+results/reports/*
+!results/reports/README.md
+
+# Local inspection files
+tree.txt
+
+# Logs
+*.log

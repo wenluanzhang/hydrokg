@@ -1,0 +1,24 @@
+device_record_id,paper_doi,ref_year,material_class,structure_class,ion_type,primary_mobile_ion,dominant_mechanism,mechanism_simple,internal_resistance_Mohm,estimated_power_density_uW_cm2,r_bin,low_R_flag,high_power_flag,auxiliary_redox_present,metal_electrode
+device_record_033,10.1002/eem2.70017,2025,biomass,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.05,10.5028,low_R,True,True,False,False
+device_record_034,10.1002/adfm.202510747,2025,biomass,porous,other_cation,K+,ion_concentration_gradient,ion_gradient,0.048,6.75,low_R,True,True,False,False
+device_record_037,10.1021/acsami.3c04726,2024,carbon,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.04,16.1525,low_R,True,True,False,False
+device_record_062,10.1039/d2ee00030j,2022,polymer,hydrogel + film,proton,H+,ion_concentration_gradient,ion_gradient,0.04,10.137,low_R,True,True,False,False
+device_record_063,10.1016/j.cej.2025.164788,2025,biomass,hydrogel,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.1,4.4,low_R,True,True,False,False
+device_record_064,10.1021/acsami.4c21266,2025,polymer,hydrogel + porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.02,6.1285,low_R,True,True,False,False
+device_record_066,10.1016/j.cej.2024.153411,2024,biomass,porous,other_cation,Ca2+,ion_concentration_gradient,ion_gradient,0.001,4.7,low_R,True,True,False,False
+device_record_068,10.1038/s41467-025-60341-z,2025,polymer,hydrogel,other_cation,Fe3+,ion_concentration_gradient,ion_gradient,0.01,6.125,low_R,True,True,False,False
+device_record_069,10.1039/C9EE00252A,2019,polymer,film,proton,H+,ion_concentration_gradient,ion_gradient,0.05,20.0,low_R,True,True,False,False
+device_record_071,10.1002/adfm.202308620,2024,polymer,film,proton,H+,ion_concentration_gradient,ion_gradient,0.04,24.0,low_R,True,True,False,False
+device_record_072,10.1038/s41467-024-50396-9,2024,polymer,hydrogel,other_cation,Li+,ion_concentration_gradient + radiative_cooling_enhanced_evaporation,ion_gradient,0.009,67.32,low_R,True,True,False,False
+device_record_100,10.1002/adfm.202418823,2025,biomass,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.005,4.7135,low_R,True,True,False,True
+device_record_102,10.1002/adfm.202531296,2026,biomass,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.01,15.75,low_R,True,True,False,True
+device_record_103,10.1021/acsnano.4c00990,2024,biomass,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.003,22.0,low_R,True,True,False,True
+device_record_104,10.1002/adma.202312209,2024,polymer,film,anion,Cl-,ion_concentration_gradient,ion_gradient,0.01,22.05,low_R,True,True,False,True
+device_record_118,10.1016/j.carbon.2023.118687,2024,carbon,porous,other_cation,Fe3+,ion_concentration_gradient,ion_gradient,0.00034,18.15,low_R,True,True,False,True
+device_record_149,10.1016/j.enconman.2025.120396,2025,polymer,hydrogel + porous,other_cation,Li+,ion_concentration_gradient,ion_gradient,0.024,5.9325,low_R,True,True,False,True
+device_record_151,10.1038/s41467-023-41371-x,2023,polymer,hydrogel + porous,other_cation,Ca2+,ion_concentration_gradient,ion_gradient,0.001,15.925,low_R,True,True,False,True
+device_record_154,10.1038/s41467-022-30156-3,2022,biomass,porous,other_cation,Na+,ion_concentration_gradient,ion_gradient,0.004,12.5,low_R,True,True,False,True
+device_record_155,10.1002/advs.202300750,2023,polymer,film,proton,H+,ion_concentration_gradient,ion_gradient,0.1,28.35,low_R,True,True,False,True
+device_record_156,10.1016/j.cej.2023.142097,2023,carbon,porous,proton,H+,ion_concentration_gradient,ion_gradient,0.1,138.0,low_R,True,True,False,True
+device_record_158,10.1002/adma.202103897,2022,polymer,film,proton,H+,ion_concentration_gradient,ion_gradient,0.008,356.5,low_R,True,True,False,True
+device_record_159,10.1039/D3EE00843F,2023,polymer,film,proton,H+,ion_concentration_gradient,ion_gradient,0.0005,320.0,low_R,True,True,False,True

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use HydroKG, please cite this data and code repository."
+title: "HydroKG: A Knowledge Graph for Relational Exploration of Curated Hydrovoltaic Device Records"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Zhang
+    given-names: Wenluan
+  - family-names: Liu
+    given-names: Runru Tristan
+  - family-names: Huang
+    given-names: Yumin
+abstract: "Curated data and reproducible research software for relational exploration of a hydrovoltaic device knowledge graph built from 159 device records and 52 fields, including frozen graph tables, relational-query outputs, and validation workflows."
+license: MIT
+repository-code: "https://github.com/wenluanzhang/hydrokg"

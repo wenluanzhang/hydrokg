@@ -1,0 +1,1778 @@
+edge_id,source_id,target_id,edge_type,source_column,source_value,properties_json
+edge_000001,paper_001,device_record_001,reports,paper_doi,10.1038/nnano.2016.300,{}
+edge_000002,device_record_001,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000003,device_record_001,material_class_001,has_material_class,material_class,carbon,{}
+edge_000004,device_record_001,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000005,device_record_001,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000006,device_record_001,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000007,device_record_001,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000008,device_record_001,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000009,device_record_001,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000010,device_record_001,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000011,paper_002,device_record_002,reports,paper_doi,10.1002/adma.202514202,{}
+edge_000012,device_record_002,material_002,uses_material,active_material_raw,lanthanum iron perovskite oxide,{}
+edge_000013,device_record_002,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000014,device_record_002,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000015,device_record_002,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000016,device_record_002,ion_001,has_secondary_mobile_ion,secondary_mobile_ion,H+,{}
+edge_000017,device_record_002,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000018,device_record_002,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000019,device_record_002,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000020,device_record_002,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000021,device_record_002,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000022,paper_003,device_record_003,reports,paper_doi,10.1016/j.joule.2022.02.002,{}
+edge_000023,device_record_003,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000024,device_record_003,material_class_001,has_material_class,material_class,carbon,{}
+edge_000025,device_record_003,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000026,device_record_003,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000027,device_record_003,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000028,device_record_003,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000029,device_record_003,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000030,device_record_003,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000031,device_record_003,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000032,paper_004,device_record_004,reports,paper_doi,10.1016/j.ceramint.2023.05.033,{}
+edge_000033,device_record_004,material_003,uses_material,active_material_raw,carbonized rice husk,{}
+edge_000034,device_record_004,material_class_001,has_material_class,material_class,carbon,{}
+edge_000035,device_record_004,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000036,device_record_004,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000037,device_record_004,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000038,device_record_004,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000039,device_record_004,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000040,device_record_004,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000041,device_record_004,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000042,paper_005,device_record_005,reports,paper_doi,10.1016/j.nanoen.2019.02.011,{}
+edge_000043,device_record_005,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000044,device_record_005,material_class_001,has_material_class,material_class,carbon,{}
+edge_000045,device_record_005,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000046,device_record_005,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000047,device_record_005,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000048,device_record_005,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000049,device_record_005,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000050,device_record_005,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000051,device_record_005,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000052,paper_006,device_record_006,reports,paper_doi,10.1002/adfm.202104732,{}
+edge_000053,device_record_006,material_004,uses_material,active_material_raw,Cu(BDC-OH) (MOF),{}
+edge_000054,device_record_006,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_000055,device_record_006,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000056,device_record_006,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000057,device_record_006,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000058,device_record_006,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000059,device_record_006,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000060,device_record_006,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000061,device_record_006,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000062,paper_007,device_record_007,reports,paper_doi,10.1016/j.jmst.2020.11.002,{}
+edge_000063,device_record_007,material_005,uses_material,active_material_raw,TiO2,{}
+edge_000064,device_record_007,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000065,device_record_007,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000066,device_record_007,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000067,device_record_007,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000068,device_record_007,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000069,device_record_007,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000070,device_record_007,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000071,device_record_007,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000072,paper_008,device_record_008,reports,paper_doi,10.1002/adma.202310260,{}
+edge_000073,device_record_008,material_006,uses_material,active_material_raw,"Silk Fibroin (SF), Nylon-66",{}
+edge_000074,device_record_008,material_class_005,has_material_class,material_class,biomass,{}
+edge_000075,device_record_008,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000076,device_record_008,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000077,device_record_008,electrolyte_001,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Silk Fibroin (SF),{}
+edge_000078,device_record_008,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000079,device_record_008,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000080,device_record_008,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000081,device_record_008,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000082,device_record_008,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000083,paper_009,device_record_009,reports,paper_doi,10.1016/j.apmt.2023.101801,{}
+edge_000084,device_record_009,material_007,uses_material,active_material_raw,"SiO₂, glass fiber (GF)",{}
+edge_000085,device_record_009,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000086,device_record_009,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000087,device_record_009,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000088,device_record_009,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000089,device_record_009,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000090,device_record_009,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000091,device_record_009,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000092,device_record_009,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000093,paper_010,device_record_010,reports,paper_doi,10.1016/j.applthermaleng.2019.114623,{}
+edge_000094,device_record_010,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000095,device_record_010,material_class_001,has_material_class,material_class,carbon,{}
+edge_000096,device_record_010,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000097,device_record_010,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000098,device_record_010,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000099,device_record_010,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000100,device_record_010,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000101,device_record_010,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000102,device_record_010,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000103,paper_011,device_record_011,reports,paper_doi,10.1039/C8TA12328D,{}
+edge_000104,device_record_011,material_008,uses_material,active_material_raw,"TiO2, Carbon",{}
+edge_000105,device_record_011,material_class_001,has_material_class,material_class,carbon,{}
+edge_000106,device_record_011,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000107,device_record_011,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000108,device_record_011,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000109,device_record_011,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000110,device_record_011,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000111,device_record_011,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000112,device_record_011,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000113,paper_012,device_record_012,reports,paper_doi,10.1021/acsami.9b09582,{}
+edge_000114,device_record_012,material_009,uses_material,active_material_raw,Al2O3,{}
+edge_000115,device_record_012,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000116,device_record_012,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000117,device_record_012,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000118,device_record_012,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000119,device_record_012,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000120,device_record_012,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000121,device_record_012,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000122,device_record_012,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000123,paper_013,device_record_013,reports,paper_doi,10.1038/s41467-024-54216-y,{}
+edge_000124,device_record_013,material_010,uses_material,active_material_raw,PEI-modified carbon black / tissue paper,{}
+edge_000125,device_record_013,material_class_005,has_material_class,material_class,biomass,{}
+edge_000126,device_record_013,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000127,device_record_013,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000128,device_record_013,electrolyte_002,uses_electrolyte,polyelectrolyte_cationic_raw,polyethyleneimine (PEI),{}
+edge_000129,device_record_013,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000130,device_record_013,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000131,device_record_013,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000132,device_record_013,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000133,device_record_013,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000134,paper_014,device_record_014,reports,paper_doi,10.1002/aenm.201702481,{}
+edge_000135,device_record_014,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000136,device_record_014,material_class_001,has_material_class,material_class,carbon,{}
+edge_000137,device_record_014,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000138,device_record_014,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000139,device_record_014,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000140,device_record_014,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000141,device_record_014,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000142,device_record_014,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000143,device_record_014,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000144,paper_015,device_record_015,reports,paper_doi,10.1016/j.jcis.2024.02.057,{}
+edge_000145,device_record_015,material_011,uses_material,active_material_raw,ZSM-5 zeolite,{}
+edge_000146,device_record_015,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000147,device_record_015,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000148,device_record_015,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000149,device_record_015,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000150,device_record_015,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000151,device_record_015,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000152,device_record_015,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000153,device_record_015,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000154,paper_016,device_record_016,reports,paper_doi,10.1002/adfm.201700551,{}
+edge_000155,device_record_016,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000156,device_record_016,material_class_001,has_material_class,material_class,carbon,{}
+edge_000157,device_record_016,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000158,device_record_016,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000159,device_record_016,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000160,device_record_016,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000161,device_record_016,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000162,device_record_016,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000163,device_record_016,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000164,paper_017,device_record_017,reports,paper_doi,10.1021/acsami.9b23380,{}
+edge_000165,device_record_017,material_012,uses_material,active_material_raw,Wood (Beech),{}
+edge_000166,device_record_017,material_class_005,has_material_class,material_class,biomass,{}
+edge_000167,device_record_017,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000168,device_record_017,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000169,device_record_017,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000170,device_record_017,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000171,device_record_017,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000172,device_record_017,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000173,device_record_017,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000174,paper_018,device_record_018,reports,paper_doi,10.1016/j.nanoen.2019.03.041,{}
+edge_000175,device_record_018,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000176,device_record_018,material_class_001,has_material_class,material_class,carbon,{}
+edge_000177,device_record_018,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000178,device_record_018,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000179,device_record_018,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000180,device_record_018,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000181,device_record_018,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000182,device_record_018,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000183,device_record_018,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000184,paper_019,device_record_019,reports,paper_doi,10.1016/j.scib.2019.06.020,{}
+edge_000185,device_record_019,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000186,device_record_019,material_class_001,has_material_class,material_class,carbon,{}
+edge_000187,device_record_019,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000188,device_record_019,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000189,device_record_019,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000190,device_record_019,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000191,device_record_019,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000192,device_record_019,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000193,device_record_019,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000194,paper_020,device_record_020,reports,paper_doi,10.1021/acsami.4c12675,{}
+edge_000195,device_record_020,material_013,uses_material,active_material_raw,"Starch, glass fiber",{}
+edge_000196,device_record_020,material_class_005,has_material_class,material_class,biomass,{}
+edge_000197,device_record_020,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000198,device_record_020,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000199,device_record_020,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000200,device_record_020,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000201,device_record_020,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000202,device_record_020,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000203,device_record_020,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000204,paper_021,device_record_021,reports,paper_doi,10.1016/j.nanoen.2018.12.042,{}
+edge_000205,device_record_021,material_014,uses_material,active_material_raw,Ni-Al Layered Double Hydroxide (LDH),{}
+edge_000206,device_record_021,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000207,device_record_021,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000208,device_record_021,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000209,device_record_021,ion_001,has_secondary_mobile_ion,secondary_mobile_ion,H+,{}
+edge_000210,device_record_021,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000211,device_record_021,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000212,device_record_021,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000213,device_record_021,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000214,device_record_021,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000215,paper_022,device_record_022,reports,paper_doi,10.1016/j.ceramint.2025.12.050,{}
+edge_000216,device_record_022,material_015,uses_material,active_material_raw,SiO2,{}
+edge_000217,device_record_022,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000218,device_record_022,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000219,device_record_022,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000220,device_record_022,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000221,device_record_022,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000222,device_record_022,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000223,device_record_022,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000224,device_record_022,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000225,paper_023,device_record_023,reports,paper_doi,10.1002/adfm.202521733,{}
+edge_000226,device_record_023,material_016,uses_material,active_material_raw,gradient oxidized delignified balsa wood,{}
+edge_000227,device_record_023,material_class_005,has_material_class,material_class,biomass,{}
+edge_000228,device_record_023,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000229,device_record_023,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000230,device_record_023,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000231,device_record_023,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000232,device_record_023,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000233,device_record_023,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000234,device_record_023,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000235,device_record_023,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000236,device_record_023,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000237,paper_024,device_record_024,reports,paper_doi,10.1039/d5mh01101a,{}
+edge_000238,device_record_024,material_017,uses_material,active_material_raw,SiO2@activated carbon (S@AC) composite film,{}
+edge_000239,device_record_024,material_class_001,has_material_class,material_class,carbon,{}
+edge_000240,device_record_024,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000241,device_record_024,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000242,device_record_024,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000243,device_record_024,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000244,device_record_024,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000245,device_record_024,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000246,device_record_024,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000247,paper_025,device_record_025,reports,paper_doi,10.1021/acsami.1c04508,{}
+edge_000248,device_record_025,material_018,uses_material,active_material_raw,Graphene Oxide (GO),{}
+edge_000249,device_record_025,material_class_001,has_material_class,material_class,carbon,{}
+edge_000250,device_record_025,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000251,device_record_025,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000252,device_record_025,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000253,device_record_025,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000254,device_record_025,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000255,device_record_025,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000256,device_record_025,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000257,device_record_025,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000258,device_record_025,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000259,paper_026,device_record_026,reports,paper_doi,10.1016/j.ceramint.2024.03.066,{}
+edge_000260,device_record_026,material_019,uses_material,active_material_raw,"Al₂O₃, nonwoven fabric, polyaniline (PANI), polyvinyl alcohol (PVA)",{}
+edge_000261,device_record_026,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000262,device_record_026,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000263,device_record_026,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000264,device_record_026,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000265,device_record_026,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000266,device_record_026,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000267,device_record_026,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000268,device_record_026,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000269,paper_027,device_record_027,reports,paper_doi,10.1002/adfm.202314231,{}
+edge_000270,device_record_027,material_020,uses_material,active_material_raw,delignified balsa wood,{}
+edge_000271,device_record_027,material_class_005,has_material_class,material_class,biomass,{}
+edge_000272,device_record_027,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000273,device_record_027,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_000274,device_record_027,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000275,device_record_027,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_000276,device_record_027,electrolyte_005,uses_electrolyte,polyelectrolyte_anionic_raw,delignified balsa wood,{}
+edge_000277,device_record_027,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000278,device_record_027,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000279,device_record_027,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000280,device_record_027,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000281,device_record_027,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000282,paper_028,device_record_028,reports,paper_doi,10.1021/jacs.3c13159,{}
+edge_000283,device_record_028,material_021,uses_material,active_material_raw,calcium-based metal-organic framework,{}
+edge_000284,device_record_028,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_000285,device_record_028,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000286,device_record_028,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000287,device_record_028,ion_006,has_secondary_mobile_ion,secondary_mobile_ion,"Cl-, Li+, K+, Ca2+, Mg2+",{}
+edge_000288,device_record_028,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000289,device_record_028,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000290,device_record_028,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000291,device_record_028,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000292,device_record_028,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000293,device_record_028,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000294,paper_029,device_record_029,reports,paper_doi,10.1021/acsami.4c07729,{}
+edge_000295,device_record_029,material_022,uses_material,active_material_raw,PSSA-modified silica aerogel,{}
+edge_000296,device_record_029,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000297,device_record_029,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000298,device_record_029,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000299,device_record_029,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000300,device_record_029,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000301,device_record_029,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000302,device_record_029,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000303,device_record_029,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000304,device_record_029,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000305,device_record_029,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000306,device_record_029,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000307,paper_030,device_record_030,reports,paper_doi,10.1038/s41467-022-34496-y,{}
+edge_000308,device_record_030,material_023,uses_material,active_material_raw,Graphene oxide (GO),{}
+edge_000309,device_record_030,material_class_001,has_material_class,material_class,carbon,{}
+edge_000310,device_record_030,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000311,device_record_030,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000312,device_record_030,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000313,device_record_030,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000314,device_record_030,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000315,device_record_030,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000316,device_record_030,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000317,paper_031,device_record_031,reports,paper_doi,10.1016/j.nanoen.2019.104385,{}
+edge_000318,device_record_031,material_024,uses_material,active_material_raw,CNTs (Carbon Nanotubes),{}
+edge_000319,device_record_031,material_class_001,has_material_class,material_class,carbon,{}
+edge_000320,device_record_031,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000321,device_record_031,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000322,device_record_031,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000323,device_record_031,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000324,device_record_031,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000325,device_record_031,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000326,device_record_031,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000327,device_record_031,asymmetry_origin_003,has_asymmetry_origin,asymmetry_origin,electrode + environmental,{}
+edge_000328,device_record_031,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000329,paper_032,device_record_032,reports,paper_doi,10.1016/j.jpowsour.2024.235934,{}
+edge_000330,device_record_032,material_025,uses_material,active_material_raw,"cellulose, carbon",{}
+edge_000331,device_record_032,material_class_005,has_material_class,material_class,biomass,{}
+edge_000332,device_record_032,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000333,device_record_032,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_000334,device_record_032,ion_007,has_secondary_mobile_ion,secondary_mobile_ion,"Na+, K+, Cl-",{}
+edge_000335,device_record_032,electrolyte_007,uses_electrolyte,inorganic_electrolyte_type,"NaCl, KCl, CaCl2",{}
+edge_000336,device_record_032,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000337,device_record_032,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000338,device_record_032,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000339,device_record_032,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000340,device_record_032,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000341,paper_033,device_record_033,reports,paper_doi,10.1002/eem2.70017,{}
+edge_000342,device_record_033,material_026,uses_material,active_material_raw,walnut shell,{}
+edge_000343,device_record_033,material_class_005,has_material_class,material_class,biomass,{}
+edge_000344,device_record_033,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000345,device_record_033,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000346,device_record_033,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000347,device_record_033,electrolyte_008,uses_electrolyte,inorganic_electrolyte_type,"NaCl, NaOH",{}
+edge_000348,device_record_033,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000349,device_record_033,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000350,device_record_033,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000351,device_record_033,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000352,device_record_033,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000353,paper_034,device_record_034,reports,paper_doi,10.1002/adfm.202510747,{}
+edge_000354,device_record_034,material_027,uses_material,active_material_raw,"cellulose, carbon black (CB)",{}
+edge_000355,device_record_034,material_class_005,has_material_class,material_class,biomass,{}
+edge_000356,device_record_034,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000357,device_record_034,ion_008,has_primary_mobile_ion,primary_mobile_ion,K+,{}
+edge_000358,device_record_034,ion_009,has_secondary_mobile_ion,secondary_mobile_ion,"Na+, Li+, Ca2+, Cl-",{}
+edge_000359,device_record_034,electrolyte_009,uses_electrolyte,inorganic_electrolyte_type,"KCl, NaCl, LiCl, CaCl2",{}
+edge_000360,device_record_034,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000361,device_record_034,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000362,device_record_034,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000363,device_record_034,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000364,device_record_034,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000365,paper_035,device_record_035,reports,paper_doi,10.1016/j.cej.2025.171723,{}
+edge_000366,device_record_035,material_028,uses_material,active_material_raw,NaTi₃O₆(OH)·2H₂O@SnO₂,{}
+edge_000367,device_record_035,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000368,device_record_035,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000369,device_record_035,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000370,device_record_035,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000371,device_record_035,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000372,device_record_035,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000373,device_record_035,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000374,device_record_035,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000375,paper_036,device_record_036,reports,paper_doi,10.1021/acsami.4c01026,{}
+edge_000376,device_record_036,material_029,uses_material,active_material_raw,"TiO2, carbon black",{}
+edge_000377,device_record_036,material_class_001,has_material_class,material_class,carbon,{}
+edge_000378,device_record_036,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000379,device_record_036,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000380,device_record_036,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000381,device_record_036,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000382,device_record_036,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000383,device_record_036,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000384,device_record_036,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000385,paper_037,device_record_037,reports,paper_doi,10.1021/acsami.3c04726,{}
+edge_000386,device_record_037,material_030,uses_material,active_material_raw,melamine-derived carbon foam (CF),{}
+edge_000387,device_record_037,material_class_001,has_material_class,material_class,carbon,{}
+edge_000388,device_record_037,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000389,device_record_037,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000390,device_record_037,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000391,device_record_037,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000392,device_record_037,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000393,device_record_037,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000394,device_record_037,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000395,device_record_037,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000396,device_record_037,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000397,paper_038,device_record_038,reports,paper_doi,10.1016/j.nanoen.2020.104502,{}
+edge_000398,device_record_038,material_031,uses_material,active_material_raw,Ni-Al layered double hydroxide (LDH),{}
+edge_000399,device_record_038,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000400,device_record_038,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000401,device_record_038,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000402,device_record_038,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000403,device_record_038,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000404,device_record_038,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000405,device_record_038,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000406,device_record_038,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000407,paper_039,device_record_039,reports,paper_doi,10.1002/smll.202400961,{}
+edge_000408,device_record_039,material_032,uses_material,active_material_raw,MOF-801,{}
+edge_000409,device_record_039,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_000410,device_record_039,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000411,device_record_039,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000412,device_record_039,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000413,device_record_039,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000414,device_record_039,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000415,device_record_039,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000416,device_record_039,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000417,paper_040,device_record_040,reports,paper_doi,10.1002/smll.202511802,{}
+edge_000418,device_record_040,material_033,uses_material,active_material_raw,WO3 nanoparticle,{}
+edge_000419,device_record_040,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000420,device_record_040,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000421,device_record_040,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000422,device_record_040,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000423,device_record_040,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000424,device_record_040,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000425,device_record_040,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000426,device_record_040,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000427,paper_041,device_record_041,reports,paper_doi,10.1021/acsapm.4c00849,{}
+edge_000428,device_record_041,material_034,uses_material,active_material_raw,"PVA-PNIPAM semi-IPN hydrogel, carbon black coated cotton fabric",{}
+edge_000429,device_record_041,material_class_006,has_material_class,material_class,polymer,{}
+edge_000430,device_record_041,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000431,device_record_041,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_000432,device_record_041,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000433,device_record_041,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_000434,device_record_041,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000435,device_record_041,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000436,device_record_041,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000437,device_record_041,asymmetry_origin_006,has_asymmetry_origin,asymmetry_origin,electrode + chemical + environmental,{}
+edge_000438,device_record_041,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_000439,paper_042,device_record_042,reports,paper_doi,10.1039/d5cc02475g,{}
+edge_000440,device_record_042,material_035,uses_material,active_material_raw,graphene oxide (GO),{}
+edge_000441,device_record_042,material_class_001,has_material_class,material_class,carbon,{}
+edge_000442,device_record_042,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000443,device_record_042,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000444,device_record_042,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000445,device_record_042,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000446,device_record_042,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000447,device_record_042,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000448,device_record_042,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000449,device_record_042,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000450,device_record_042,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_000451,paper_043,device_record_043,reports,paper_doi,10.1039/d3ta03468b,{}
+edge_000452,device_record_043,material_036,uses_material,active_material_raw,polyelectrolyte-gradient hydrogel,{}
+edge_000453,device_record_043,material_class_006,has_material_class,material_class,polymer,{}
+edge_000454,device_record_043,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000455,device_record_043,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000456,device_record_043,electrolyte_010,uses_electrolyte,polyelectrolyte_anionic_raw,lignosulfonate sodium (LS),{}
+edge_000457,device_record_043,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000458,device_record_043,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000459,device_record_043,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000460,device_record_043,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000461,device_record_043,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000462,paper_044,device_record_044,reports,paper_doi,10.1002/adfm.202418834,{}
+edge_000463,device_record_044,material_037,uses_material,active_material_raw,Black Phosphorus aerogel,{}
+edge_000464,device_record_044,material_class_007,has_material_class,material_class,others,{}
+edge_000465,device_record_044,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000466,device_record_044,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000467,device_record_044,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000468,device_record_044,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000469,device_record_044,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000470,device_record_044,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000471,device_record_044,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000472,paper_045,device_record_045,reports,paper_doi,10.1002/adma.202509865,{}
+edge_000473,device_record_045,material_038,uses_material,active_material_raw,"polycaprolactone (PCL), PEDOT:PSS, GO, Ppy",{}
+edge_000474,device_record_045,material_class_006,has_material_class,material_class,polymer,{}
+edge_000475,device_record_045,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000476,device_record_045,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000477,device_record_045,electrolyte_011,uses_electrolyte,polyelectrolyte_anionic_raw,PEDOT:PSS,{}
+edge_000478,device_record_045,electrolyte_012,uses_electrolyte,polyelectrolyte_cationic_raw,polypyrrole (PPy),{}
+edge_000479,device_record_045,electrode_003,has_top_electrode,top_electrode,Ppy,{}
+edge_000480,device_record_045,electrode_003,has_bottom_electrode,bottom_electrode,Ppy,{}
+edge_000481,device_record_045,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000482,device_record_045,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000483,device_record_045,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000484,paper_046,device_record_046,reports,paper_doi,10.1002/adma.202304099,{}
+edge_000485,device_record_046,material_039,uses_material,active_material_raw,"PAN, Al₂O₃",{}
+edge_000486,device_record_046,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000487,device_record_046,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000488,device_record_046,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000489,device_record_046,ion_001,has_secondary_mobile_ion,secondary_mobile_ion,H+,{}
+edge_000490,device_record_046,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000491,device_record_046,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000492,device_record_046,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000493,device_record_046,asymmetry_origin_006,has_asymmetry_origin,asymmetry_origin,electrode + chemical + environmental,{}
+edge_000494,device_record_046,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000495,paper_047,device_record_047,reports,paper_doi,10.1016/j.nanoen.2022.107017,{}
+edge_000496,device_record_047,material_040,uses_material,active_material_raw,"PSSA, PVA",{}
+edge_000497,device_record_047,material_class_006,has_material_class,material_class,polymer,{}
+edge_000498,device_record_047,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000499,device_record_047,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000500,device_record_047,electrolyte_013,uses_electrolyte,polyelectrolyte_anionic_raw,poly (4-styrene sulfonic acid) (PSSA),{}
+edge_000501,device_record_047,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000502,device_record_047,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000503,device_record_047,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000504,device_record_047,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000505,device_record_047,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000506,paper_048,device_record_048,reports,paper_doi,10.1016/j.nanoen.2020.104922,{}
+edge_000507,device_record_048,material_041,uses_material,active_material_raw,"Corn Stalk, LiCl",{}
+edge_000508,device_record_048,material_class_005,has_material_class,material_class,biomass,{}
+edge_000509,device_record_048,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000510,device_record_048,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000511,device_record_048,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000512,device_record_048,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000513,device_record_048,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000514,device_record_048,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000515,device_record_048,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000516,device_record_048,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000517,device_record_048,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000518,paper_049,device_record_049,reports,paper_doi,10.1038/s41467-024-49393-9,{}
+edge_000519,device_record_049,material_042,uses_material,active_material_raw,PDDA/PSSA bilayer polyelectrolyte film,{}
+edge_000520,device_record_049,material_class_006,has_material_class,material_class,polymer,{}
+edge_000521,device_record_049,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000522,device_record_049,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000523,device_record_049,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000524,device_record_049,electrolyte_013,uses_electrolyte,polyelectrolyte_anionic_raw,poly (4-styrene sulfonic acid) (PSSA),{}
+edge_000525,device_record_049,electrolyte_015,uses_electrolyte,polyelectrolyte_cationic_raw,Polydiallyl dimethyl ammonium chloride (PDDA),{}
+edge_000526,device_record_049,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000527,device_record_049,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000528,device_record_049,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000529,device_record_049,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000530,device_record_049,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000531,paper_050,device_record_050,reports,paper_doi,10.1063/5.0139883,{}
+edge_000532,device_record_050,material_043,uses_material,active_material_raw,"TiO₂ nanowires, AgInZnS, PVA",{}
+edge_000533,device_record_050,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000534,device_record_050,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000535,device_record_050,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000536,device_record_050,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000537,device_record_050,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000538,device_record_050,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000539,device_record_050,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000540,device_record_050,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000541,paper_051,device_record_051,reports,paper_doi,10.1016/j.enconman.2023.117256,{}
+edge_000542,device_record_051,material_044,uses_material,active_material_raw,TiO₂/Co hydrogel,{}
+edge_000543,device_record_051,material_class_008,has_material_class,material_class,composite,{}
+edge_000544,device_record_051,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000545,device_record_051,ion_011,has_primary_mobile_ion,primary_mobile_ion,Co3+,{}
+edge_000546,device_record_051,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000547,device_record_051,electrolyte_016,uses_electrolyte,inorganic_electrolyte_type,CoCl2,{}
+edge_000548,device_record_051,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_000549,device_record_051,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_000550,device_record_051,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000551,device_record_051,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000552,device_record_051,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000553,paper_052,device_record_052,reports,paper_doi,10.1016/j.cej.2023.143443,{}
+edge_000554,device_record_052,material_045,uses_material,active_material_raw,PSS-PVA@CDs,{}
+edge_000555,device_record_052,material_class_006,has_material_class,material_class,polymer,{}
+edge_000556,device_record_052,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000557,device_record_052,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000558,device_record_052,electrolyte_013,uses_electrolyte,polyelectrolyte_anionic_raw,poly (4-styrene sulfonic acid) (PSSA),{}
+edge_000559,device_record_052,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000560,device_record_052,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000561,device_record_052,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000562,device_record_052,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000563,device_record_052,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000564,paper_053,device_record_053,reports,paper_doi,10.1021/acssuschemeng.5c09332,{}
+edge_000565,device_record_053,material_046,uses_material,active_material_raw,"PGA, CNF composite ionic hydrogel",{}
+edge_000566,device_record_053,material_class_006,has_material_class,material_class,polymer,{}
+edge_000567,device_record_053,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000568,device_record_053,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000569,device_record_053,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000570,device_record_053,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000571,device_record_053,electrolyte_017,uses_electrolyte,polyelectrolyte_anionic_raw,Poly (glutamic acid) (PGA),{}
+edge_000572,device_record_053,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000573,device_record_053,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000574,device_record_053,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000575,device_record_053,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000576,device_record_053,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000577,paper_054,device_record_054,reports,paper_doi,10.1021/acsami.2c12777,{}
+edge_000578,device_record_054,material_047,uses_material,active_material_raw,"Citric Acid, Paper (Cellulose)",{}
+edge_000579,device_record_054,material_class_005,has_material_class,material_class,biomass,{}
+edge_000580,device_record_054,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000581,device_record_054,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000582,device_record_054,electrode_004,has_top_electrode,top_electrode,MXene,{}
+edge_000583,device_record_054,electrode_004,has_bottom_electrode,bottom_electrode,MXene,{}
+edge_000584,device_record_054,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000585,device_record_054,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000586,device_record_054,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000587,paper_055,device_record_055,reports,paper_doi,10.1038/s41467-022-31221-7,{}
+edge_000588,device_record_055,material_048,uses_material,active_material_raw,"Cellulon Paper, LiCl, Carbon Black",{}
+edge_000589,device_record_055,material_class_005,has_material_class,material_class,biomass,{}
+edge_000590,device_record_055,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000591,device_record_055,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000592,device_record_055,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000593,device_record_055,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000594,device_record_055,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000595,device_record_055,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000596,device_record_055,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000597,device_record_055,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000598,device_record_055,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000599,paper_056,device_record_056,reports,paper_doi,10.1002/adfm.202406901,{}
+edge_000600,device_record_056,material_049,uses_material,active_material_raw,PSSA/PVA/LiCl/glycerol hydrogel on CB-modified non-woven fabric,{}
+edge_000601,device_record_056,material_class_006,has_material_class,material_class,polymer,{}
+edge_000602,device_record_056,structure_class_004,has_structure_class,structure_class,hydrogel + porous,{}
+edge_000603,device_record_056,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000604,device_record_056,ion_012,has_secondary_mobile_ion,secondary_mobile_ion,"H+, Cl-",{}
+edge_000605,device_record_056,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000606,device_record_056,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000607,device_record_056,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000608,device_record_056,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000609,device_record_056,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000610,device_record_056,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000611,device_record_056,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000612,paper_057,device_record_057,reports,paper_doi,10.1039/d4cc01652a,{}
+edge_000613,device_record_057,material_050,uses_material,active_material_raw,"Poly(4-styrenesulfonic acid) (PSSA), poly(vinyl alcohol) (PVA), phytic acid (PA)",{}
+edge_000614,device_record_057,material_class_006,has_material_class,material_class,polymer,{}
+edge_000615,device_record_057,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000616,device_record_057,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000617,device_record_057,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000618,device_record_057,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000619,device_record_057,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000620,device_record_057,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000621,device_record_057,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000622,device_record_057,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000623,paper_058,device_record_058,reports,paper_doi,10.1002/adma.202201228,{}
+edge_000624,device_record_058,material_051,uses_material,active_material_raw,"PVA-based hydrogel, NaCl",{}
+edge_000625,device_record_058,material_class_006,has_material_class,material_class,polymer,{}
+edge_000626,device_record_058,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000627,device_record_058,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000628,device_record_058,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000629,device_record_058,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000630,device_record_058,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000631,device_record_058,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000632,device_record_058,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000633,device_record_058,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000634,paper_059,device_record_059,reports,paper_doi,10.1038/s41565-021-00903-6,{}
+edge_000635,device_record_059,material_052,uses_material,active_material_raw,PSSA / PDDA,{}
+edge_000636,device_record_059,material_class_006,has_material_class,material_class,polymer,{}
+edge_000637,device_record_059,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000638,device_record_059,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000639,device_record_059,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000640,device_record_059,electrolyte_015,uses_electrolyte,polyelectrolyte_cationic_raw,Polydiallyl dimethyl ammonium chloride (PDDA),{}
+edge_000641,device_record_059,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000642,device_record_059,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000643,device_record_059,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000644,device_record_059,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000645,device_record_059,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000646,paper_060,device_record_060,reports,paper_doi,10.1021/acsami.3c08618,{}
+edge_000647,device_record_060,material_053,uses_material,active_material_raw,"TEMPO‑oxidized cellulose nanofiber, Graphene Oxide (GO)",{}
+edge_000648,device_record_060,material_class_005,has_material_class,material_class,biomass,{}
+edge_000649,device_record_060,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000650,device_record_060,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000651,device_record_060,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000652,device_record_060,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000653,device_record_060,electrolyte_018,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO‑oxidized cellulose nanofiber (TOCNF),{}
+edge_000654,device_record_060,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000655,device_record_060,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000656,device_record_060,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000657,device_record_060,asymmetry_origin_006,has_asymmetry_origin,asymmetry_origin,electrode + chemical + environmental,{}
+edge_000658,device_record_060,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000659,paper_061,device_record_061,reports,paper_doi,10.1039/d5ta06289f,{}
+edge_000660,device_record_061,material_054,uses_material,active_material_raw,Janus-like asymmetric MOFs@FP-CB membrane,{}
+edge_000661,device_record_061,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_000662,device_record_061,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000663,device_record_061,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000664,device_record_061,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000665,device_record_061,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000666,device_record_061,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000667,device_record_061,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000668,device_record_061,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000669,device_record_061,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000670,device_record_061,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000671,paper_062,device_record_062,reports,paper_doi,10.1039/d2ee00030j,{}
+edge_000672,device_record_062,material_055,uses_material,active_material_raw,"Nafion, pNIPAm",{}
+edge_000673,device_record_062,material_class_006,has_material_class,material_class,polymer,{}
+edge_000674,device_record_062,structure_class_005,has_structure_class,structure_class,hydrogel + film,{}
+edge_000675,device_record_062,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000676,device_record_062,electrolyte_019,uses_electrolyte,polyelectrolyte_cationic_raw,Nafion,{}
+edge_000677,device_record_062,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000678,device_record_062,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000679,device_record_062,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000680,device_record_062,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_000681,device_record_062,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000682,paper_063,device_record_063,reports,paper_doi,10.1016/j.cej.2025.164788,{}
+edge_000683,device_record_063,material_056,uses_material,active_material_raw,"PGA, cellulose nanofibers",{}
+edge_000684,device_record_063,material_class_005,has_material_class,material_class,biomass,{}
+edge_000685,device_record_063,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000686,device_record_063,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000687,device_record_063,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000688,device_record_063,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000689,device_record_063,electrolyte_020,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(glutamic acid) (PGA),{}
+edge_000690,device_record_063,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000691,device_record_063,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000692,device_record_063,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000693,device_record_063,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_000694,device_record_063,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000695,paper_064,device_record_064,reports,paper_doi,10.1021/acsami.4c21266,{}
+edge_000696,device_record_064,material_057,uses_material,active_material_raw,"SA, poly(AETA), PVA",{}
+edge_000697,device_record_064,material_class_006,has_material_class,material_class,polymer,{}
+edge_000698,device_record_064,structure_class_004,has_structure_class,structure_class,hydrogel + porous,{}
+edge_000699,device_record_064,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000700,device_record_064,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000701,device_record_064,electrolyte_021,uses_electrolyte,polyelectrolyte_anionic_raw,Sodium Alginate (SA),{}
+edge_000702,device_record_064,electrolyte_022,uses_electrolyte,polyelectrolyte_cationic_raw,Poly(AETA),{}
+edge_000703,device_record_064,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000704,device_record_064,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000705,device_record_064,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000706,device_record_064,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000707,device_record_064,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000708,paper_065,device_record_065,reports,paper_doi,10.1021/acsami.4c03828,{}
+edge_000709,device_record_065,material_058,uses_material,active_material_raw,SnBr₄(DMSO)₂/MABr two-phase eutectic film,{}
+edge_000710,device_record_065,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000711,device_record_065,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000712,device_record_065,ion_013,has_primary_mobile_ion,primary_mobile_ion,MA+,{}
+edge_000713,device_record_065,ion_014,has_secondary_mobile_ion,secondary_mobile_ion,Br-,{}
+edge_000714,device_record_065,electrode_005,has_top_electrode,top_electrode,TO,{}
+edge_000715,device_record_065,electrode_005,has_bottom_electrode,bottom_electrode,TO,{}
+edge_000716,device_record_065,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000717,device_record_065,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000718,device_record_065,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000719,paper_066,device_record_066,reports,paper_doi,10.1016/j.cej.2024.153411,{}
+edge_000720,device_record_066,material_059,uses_material,active_material_raw,"cellulose, carbon black, CaCl2",{}
+edge_000721,device_record_066,material_class_005,has_material_class,material_class,biomass,{}
+edge_000722,device_record_066,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000723,device_record_066,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_000724,device_record_066,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000725,device_record_066,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_000726,device_record_066,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000727,device_record_066,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000728,device_record_066,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000729,device_record_066,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000730,device_record_066,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000731,paper_067,device_record_067,reports,paper_doi,10.1016/j.cej.2024.151660,{}
+edge_000732,device_record_067,material_060,uses_material,active_material_raw,"LiCl, filter paper (FP), carbon nanotubes (CNTs)",{}
+edge_000733,device_record_067,material_class_001,has_material_class,material_class,carbon,{}
+edge_000734,device_record_067,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000735,device_record_067,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000736,device_record_067,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000737,device_record_067,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000738,device_record_067,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000739,device_record_067,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000740,device_record_067,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000741,device_record_067,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000742,device_record_067,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000743,paper_068,device_record_068,reports,paper_doi,10.1038/s41467-025-60341-z,{}
+edge_000744,device_record_068,material_061,uses_material,active_material_raw,Iron Hydrogel,{}
+edge_000745,device_record_068,material_class_006,has_material_class,material_class,polymer,{}
+edge_000746,device_record_068,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000747,device_record_068,ion_015,has_primary_mobile_ion,primary_mobile_ion,Fe3+,{}
+edge_000748,device_record_068,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000749,device_record_068,electrolyte_023,uses_electrolyte,inorganic_electrolyte_type,FeCl3,{}
+edge_000750,device_record_068,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000751,device_record_068,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000752,device_record_068,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000753,device_record_068,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_000754,device_record_068,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000755,paper_069,device_record_069,reports,paper_doi,10.1039/C9EE00252A,{}
+edge_000756,device_record_069,material_062,uses_material,active_material_raw,PSSA,{}
+edge_000757,device_record_069,material_class_006,has_material_class,material_class,polymer,{}
+edge_000758,device_record_069,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000759,device_record_069,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000760,device_record_069,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000761,device_record_069,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000762,device_record_069,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000763,device_record_069,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000764,device_record_069,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_000765,device_record_069,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000766,paper_070,device_record_070,reports,paper_doi,10.1021/acsenergylett.3c00023,{}
+edge_000767,device_record_070,material_063,uses_material,active_material_raw,perovskite MA₄PbBr₆·2H₂O,{}
+edge_000768,device_record_070,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000769,device_record_070,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000770,device_record_070,ion_013,has_primary_mobile_ion,primary_mobile_ion,MA+,{}
+edge_000771,device_record_070,ion_014,has_secondary_mobile_ion,secondary_mobile_ion,Br-,{}
+edge_000772,device_record_070,electrode_005,has_top_electrode,top_electrode,TO,{}
+edge_000773,device_record_070,electrode_005,has_bottom_electrode,bottom_electrode,TO,{}
+edge_000774,device_record_070,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000775,device_record_070,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000776,device_record_070,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000777,paper_071,device_record_071,reports,paper_doi,10.1002/adfm.202308620,{}
+edge_000778,device_record_071,material_062,uses_material,active_material_raw,PSSA,{}
+edge_000779,device_record_071,material_class_006,has_material_class,material_class,polymer,{}
+edge_000780,device_record_071,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000781,device_record_071,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000782,device_record_071,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_000783,device_record_071,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000784,device_record_071,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000785,device_record_071,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000786,device_record_071,asymmetry_origin_003,has_asymmetry_origin,asymmetry_origin,electrode + environmental,{}
+edge_000787,device_record_071,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000788,paper_072,device_record_072,reports,paper_doi,10.1038/s41467-024-50396-9,{}
+edge_000789,device_record_072,material_064,uses_material,active_material_raw,Porous P(VdF-HFP) + PVA-PA-LiCl ionic hydrogel,{}
+edge_000790,device_record_072,material_class_006,has_material_class,material_class,polymer,{}
+edge_000791,device_record_072,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000792,device_record_072,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_000793,device_record_072,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000794,device_record_072,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_000795,device_record_072,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000796,device_record_072,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000797,device_record_072,mechanism_003,has_mechanism,dominant_mechanism,ion_concentration_gradient + radiative_cooling_enhanced_evaporation,{}
+edge_000798,device_record_072,asymmetry_origin_006,has_asymmetry_origin,asymmetry_origin,electrode + chemical + environmental,{}
+edge_000799,device_record_072,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000800,paper_073,device_record_073,reports,paper_doi,10.1016/j.nanoen.2024.110291,{}
+edge_000801,device_record_073,material_065,uses_material,active_material_raw,Kautsky-type siloxene nanosheets,{}
+edge_000802,device_record_073,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000803,device_record_073,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000804,device_record_073,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000805,device_record_073,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000806,device_record_073,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000807,device_record_073,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000808,device_record_073,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000809,device_record_073,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000810,paper_074,device_record_074,reports,paper_doi,10.1016/j.renene.2025.123945,{}
+edge_000811,device_record_074,material_066,uses_material,active_material_raw,"carbon black gradient modified cellulose filter paper, CaCl2",{}
+edge_000812,device_record_074,material_class_001,has_material_class,material_class,carbon,{}
+edge_000813,device_record_074,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000814,device_record_074,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_000815,device_record_074,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000816,device_record_074,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_000817,device_record_074,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_000818,device_record_074,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_000819,device_record_074,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000820,device_record_074,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000821,device_record_074,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000822,paper_075,device_record_075,reports,paper_doi,10.1016/j.nanoen.2021.106361,{}
+edge_000823,device_record_075,material_067,uses_material,active_material_raw,Geobacter sulfurreducens protein,{}
+edge_000824,device_record_075,material_class_005,has_material_class,material_class,biomass,{}
+edge_000825,device_record_075,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000826,device_record_075,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000827,device_record_075,electrolyte_024,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Geobacter sulfurreducens protein nanowires,{}
+edge_000828,device_record_075,electrode_005,has_top_electrode,top_electrode,TO,{}
+edge_000829,device_record_075,electrode_005,has_bottom_electrode,bottom_electrode,TO,{}
+edge_000830,device_record_075,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000831,device_record_075,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_000832,device_record_075,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_000833,paper_076,device_record_076,reports,paper_doi,10.1021/acsaelm.9b00419,{}
+edge_000834,device_record_076,material_068,uses_material,active_material_raw,ZnO,{}
+edge_000835,device_record_076,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000836,device_record_076,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000837,device_record_076,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000838,device_record_076,ion_001,has_secondary_mobile_ion,secondary_mobile_ion,H+,{}
+edge_000839,device_record_076,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_000840,device_record_076,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_000841,device_record_076,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000842,device_record_076,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000843,device_record_076,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000844,paper_077,device_record_077,reports,paper_doi,10.1038/s44221-024-00311-9,{}
+edge_000845,device_record_077,material_069,uses_material,active_material_raw,Plant_Tissue,{}
+edge_000846,device_record_077,material_class_005,has_material_class,material_class,biomass,{}
+edge_000847,device_record_077,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000848,device_record_077,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000849,device_record_077,ion_008,has_secondary_mobile_ion,secondary_mobile_ion,K+,{}
+edge_000850,device_record_077,electrode_007,has_top_electrode,top_electrode,Ti,{}
+edge_000851,device_record_077,electrode_007,has_bottom_electrode,bottom_electrode,Ti,{}
+edge_000852,device_record_077,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000853,device_record_077,asymmetry_origin_003,has_asymmetry_origin,asymmetry_origin,electrode + environmental,{}
+edge_000854,device_record_077,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000855,paper_078,device_record_078,reports,paper_doi,10.1016/j.nanoen.2019.05.079,{}
+edge_000856,device_record_078,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000857,device_record_078,material_class_001,has_material_class,material_class,carbon,{}
+edge_000858,device_record_078,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000859,device_record_078,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000860,device_record_078,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_000861,device_record_078,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_000862,device_record_078,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000863,device_record_078,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000864,device_record_078,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000865,paper_079,device_record_079,reports,paper_doi,10.1016/j.cej.2021.132759,{}
+edge_000866,device_record_079,material_070,uses_material,active_material_raw,holey graphene oxide (HGO),{}
+edge_000867,device_record_079,material_class_001,has_material_class,material_class,carbon,{}
+edge_000868,device_record_079,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000869,device_record_079,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000870,device_record_079,electrode_007,has_top_electrode,top_electrode,Ti,{}
+edge_000871,device_record_079,electrode_007,has_bottom_electrode,bottom_electrode,Ti,{}
+edge_000872,device_record_079,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000873,device_record_079,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000874,device_record_079,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000875,paper_080,device_record_080,reports,paper_doi,10.1016/j.nanoen.2020.105522,{}
+edge_000876,device_record_080,material_071,uses_material,active_material_raw,"MoS2, SiO2",{}
+edge_000877,device_record_080,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_000878,device_record_080,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000879,device_record_080,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_000880,device_record_080,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_000881,device_record_080,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000882,device_record_080,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_000883,device_record_080,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_000884,device_record_080,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000885,device_record_080,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000886,device_record_080,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000887,paper_081,device_record_081,reports,paper_doi,10.1021/acsami.1c13487,{}
+edge_000888,device_record_081,material_072,uses_material,active_material_raw,Carbonization of the PAN,{}
+edge_000889,device_record_081,material_class_006,has_material_class,material_class,polymer,{}
+edge_000890,device_record_081,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000891,device_record_081,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000892,device_record_081,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000893,device_record_081,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_000894,device_record_081,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000895,device_record_081,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000896,device_record_081,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000897,paper_082,device_record_082,reports,paper_doi,10.1002/adma.202003720,{}
+edge_000898,device_record_082,material_073,uses_material,active_material_raw,"AlOOH, UIO-66",{}
+edge_000899,device_record_082,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_000900,device_record_082,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000901,device_record_082,ion_002,has_primary_mobile_ion,primary_mobile_ion,OH-,{}
+edge_000902,device_record_082,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_000903,device_record_082,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_000904,device_record_082,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000905,device_record_082,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000906,device_record_082,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000907,paper_083,device_record_083,reports,paper_doi,10.1016/j.nanoen.2023.108491,{}
+edge_000908,device_record_083,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000909,device_record_083,material_class_001,has_material_class,material_class,carbon,{}
+edge_000910,device_record_083,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000911,device_record_083,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000912,device_record_083,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_000913,device_record_083,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_000914,device_record_083,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000915,device_record_083,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000916,device_record_083,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000917,paper_084,device_record_084,reports,paper_doi,10.1038/s41467-024-49429-0,{}
+edge_000918,device_record_084,material_074,uses_material,active_material_raw,Microbial Biofilm,{}
+edge_000919,device_record_084,material_class_005,has_material_class,material_class,biomass,{}
+edge_000920,device_record_084,structure_class_002,has_structure_class,structure_class,film,{}
+edge_000921,device_record_084,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000922,device_record_084,electrolyte_025,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Microbial Biofilm,{}
+edge_000923,device_record_084,electrode_007,has_top_electrode,top_electrode,Ti,{}
+edge_000924,device_record_084,electrode_007,has_bottom_electrode,bottom_electrode,Ti,{}
+edge_000925,device_record_084,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000926,device_record_084,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000927,device_record_084,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000928,paper_085,device_record_085,reports,paper_doi,10.1021/acsami.2c18317,{}
+edge_000929,device_record_085,material_075,uses_material,active_material_raw,functionalized graphite,{}
+edge_000930,device_record_085,material_class_001,has_material_class,material_class,carbon,{}
+edge_000931,device_record_085,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000932,device_record_085,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000933,device_record_085,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000934,device_record_085,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_000935,device_record_085,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000936,device_record_085,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000937,device_record_085,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000938,paper_086,device_record_086,reports,paper_doi,10.1016/j.cej.2025.163895,{}
+edge_000939,device_record_086,material_076,uses_material,active_material_raw,MIL-53Al/polydopamine (PDA) composite (MPH),{}
+edge_000940,device_record_086,material_class_008,has_material_class,material_class,composite,{}
+edge_000941,device_record_086,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000942,device_record_086,ion_004,has_primary_mobile_ion,primary_mobile_ion,Cl-,{}
+edge_000943,device_record_086,ion_003,has_secondary_mobile_ion,secondary_mobile_ion,Na+,{}
+edge_000944,device_record_086,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_000945,device_record_086,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000946,device_record_086,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_000947,device_record_086,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_000948,device_record_086,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000949,device_record_086,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000950,paper_087,device_record_087,reports,paper_doi,10.1021/acssuschemeng.3c01952,{}
+edge_000951,device_record_087,material_077,uses_material,active_material_raw,"Graphene Oxide (FGO), Deacetylated cellulose acetate (dCA)",{}
+edge_000952,device_record_087,material_class_005,has_material_class,material_class,biomass,{}
+edge_000953,device_record_087,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000954,device_record_087,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000955,device_record_087,electrolyte_026,uses_electrolyte,polyelectrolyte_anionic_raw,Deacetylated cellulose acetate (dCA),{}
+edge_000956,device_record_087,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000957,device_record_087,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_000958,device_record_087,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000959,device_record_087,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_000960,device_record_087,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000961,paper_088,device_record_088,reports,paper_doi,10.1016/j.matt.2025.102200,{}
+edge_000962,device_record_088,material_078,uses_material,active_material_raw,gelatin/Al2O3 hydrogel,{}
+edge_000963,device_record_088,material_class_005,has_material_class,material_class,biomass,{}
+edge_000964,device_record_088,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_000965,device_record_088,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000966,device_record_088,electrolyte_027,uses_electrolyte,polyelectrolyte_zwitterionic_raw,gelatin,{}
+edge_000967,device_record_088,electrode_011,has_top_electrode,top_electrode,Steel,{}
+edge_000968,device_record_088,electrode_011,has_bottom_electrode,bottom_electrode,Steel,{}
+edge_000969,device_record_088,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000970,device_record_088,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000971,device_record_088,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000972,paper_089,device_record_089,reports,paper_doi,10.1039/c9gc04310a,{}
+edge_000973,device_record_089,material_079,uses_material,active_material_raw,"Gum Arabic, poly(acrylic acid) (PAA), carboxymethyl cellulose (CMC)",{}
+edge_000974,device_record_089,material_class_005,has_material_class,material_class,biomass,{}
+edge_000975,device_record_089,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000976,device_record_089,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000977,device_record_089,electrolyte_028,uses_electrolyte,polyelectrolyte_anionic_raw,"poly(acrylic acid) (PAA), carboxymethyl cellulose (CMC)",{}
+edge_000978,device_record_089,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000979,device_record_089,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_000980,device_record_089,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000981,device_record_089,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000982,device_record_089,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000983,paper_090,device_record_090,reports,paper_doi,10.1038/s41598-021-90374-5,{}
+edge_000984,device_record_090,material_009,uses_material,active_material_raw,Al2O3,{}
+edge_000985,device_record_090,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_000986,device_record_090,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000987,device_record_090,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000988,device_record_090,electrode_011,has_top_electrode,top_electrode,Steel,{}
+edge_000989,device_record_090,electrode_011,has_bottom_electrode,bottom_electrode,Steel,{}
+edge_000990,device_record_090,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_000991,device_record_090,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_000992,device_record_090,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_000993,paper_091,device_record_091,reports,paper_doi,10.1016/j.jpowsour.2023.233007,{}
+edge_000994,device_record_091,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_000995,device_record_091,material_class_001,has_material_class,material_class,carbon,{}
+edge_000996,device_record_091,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_000997,device_record_091,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_000998,device_record_091,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_000999,device_record_091,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001000,device_record_091,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001001,device_record_091,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001002,device_record_091,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001003,paper_092,device_record_092,reports,paper_doi,10.1002/advs.202400856,{}
+edge_001004,device_record_092,material_080,uses_material,active_material_raw,Microalgae,{}
+edge_001005,device_record_092,material_class_005,has_material_class,material_class,biomass,{}
+edge_001006,device_record_092,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001007,device_record_092,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001008,device_record_092,electrolyte_029,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Microalgae,{}
+edge_001009,device_record_092,electrode_007,has_top_electrode,top_electrode,Ti,{}
+edge_001010,device_record_092,electrode_007,has_bottom_electrode,bottom_electrode,Ti,{}
+edge_001011,device_record_092,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001012,device_record_092,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001013,device_record_092,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001014,paper_093,device_record_093,reports,paper_doi,10.1016/j.nanoen.2020.104663,{}
+edge_001015,device_record_093,material_081,uses_material,active_material_raw,"Carbon Black (CB), PVA",{}
+edge_001016,device_record_093,material_class_001,has_material_class,material_class,carbon,{}
+edge_001017,device_record_093,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001018,device_record_093,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001019,device_record_093,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001020,device_record_093,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001021,device_record_093,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001022,device_record_093,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001023,device_record_093,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001024,paper_094,device_record_094,reports,paper_doi,10.1002/adfm.202208933,{}
+edge_001025,device_record_094,material_082,uses_material,active_material_raw,wood,{}
+edge_001026,device_record_094,material_class_005,has_material_class,material_class,biomass,{}
+edge_001027,device_record_094,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001028,device_record_094,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001029,device_record_094,ion_002,has_secondary_mobile_ion,secondary_mobile_ion,OH-,{}
+edge_001030,device_record_094,electrolyte_030,uses_electrolyte,inorganic_electrolyte_type,NaOH,{}
+edge_001031,device_record_094,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001032,device_record_094,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001033,device_record_094,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001034,device_record_094,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001035,device_record_094,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001036,paper_095,device_record_095,reports,paper_doi,10.1002/advs.202304482,{}
+edge_001037,device_record_095,material_083,uses_material,active_material_raw,Wood Pulp and Polyester Fiber,{}
+edge_001038,device_record_095,material_class_005,has_material_class,material_class,biomass,{}
+edge_001039,device_record_095,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001040,device_record_095,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001041,device_record_095,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001042,device_record_095,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001043,device_record_095,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001044,device_record_095,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001045,device_record_095,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001046,device_record_095,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001047,device_record_095,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001048,paper_096,device_record_096,reports,paper_doi,10.1002/adfm.202419753,{}
+edge_001049,device_record_096,material_084,uses_material,active_material_raw,"Carbon Black (CB), paper",{}
+edge_001050,device_record_096,material_class_005,has_material_class,material_class,biomass,{}
+edge_001051,device_record_096,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001052,device_record_096,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001053,device_record_096,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001054,device_record_096,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001055,device_record_096,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001056,device_record_096,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001057,device_record_096,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001058,device_record_096,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001059,device_record_096,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001060,paper_097,device_record_097,reports,paper_doi,10.1016/j.nanoen.2020.105096,{}
+edge_001061,device_record_097,material_085,uses_material,active_material_raw,"Graphene Oxide (GO), PEDOT:PSS",{}
+edge_001062,device_record_097,material_class_001,has_material_class,material_class,carbon,{}
+edge_001063,device_record_097,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001064,device_record_097,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001065,device_record_097,electrolyte_011,uses_electrolyte,polyelectrolyte_anionic_raw,PEDOT:PSS,{}
+edge_001066,device_record_097,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001067,device_record_097,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001068,device_record_097,mechanism_004,has_mechanism,dominant_mechanism,ion_concentration_gradient + pyroelectricity,{}
+edge_001069,device_record_097,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001070,device_record_097,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001071,paper_098,device_record_098,reports,paper_doi,10.1016/j.cej.2022.140568,{}
+edge_001072,device_record_098,material_086,uses_material,active_material_raw,cellulosic wood-PEDOT/PSS,{}
+edge_001073,device_record_098,material_class_005,has_material_class,material_class,biomass,{}
+edge_001074,device_record_098,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001075,device_record_098,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001076,device_record_098,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001077,device_record_098,electrolyte_031,uses_electrolyte,inorganic_electrolyte_type,"NaCl, KCl, K₂SO₄, K₂CO₃",{}
+edge_001078,device_record_098,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001079,device_record_098,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001080,device_record_098,mechanism_005,has_mechanism,dominant_mechanism,ion_concentration_gradient + thermo_diffusion,{}
+edge_001081,device_record_098,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001082,device_record_098,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001083,paper_099,device_record_099,reports,paper_doi,10.1016/j.nanoen.2025.110992,{}
+edge_001084,device_record_099,material_087,uses_material,active_material_raw,COF/PAN,{}
+edge_001085,device_record_099,material_class_003,has_material_class,material_class,MOF/COF,{}
+edge_001086,device_record_099,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001087,device_record_099,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001088,device_record_099,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001089,device_record_099,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001090,device_record_099,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001091,device_record_099,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001092,device_record_099,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001093,paper_100,device_record_100,reports,paper_doi,10.1002/adfm.202418823,{}
+edge_001094,device_record_100,material_088,uses_material,active_material_raw,TOCNF/CCNT,{}
+edge_001095,device_record_100,material_class_005,has_material_class,material_class,biomass,{}
+edge_001096,device_record_100,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001097,device_record_100,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001098,device_record_100,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001099,device_record_100,electrolyte_032,uses_electrolyte,inorganic_electrolyte_type,"FeCl3, NaCl",{}
+edge_001100,device_record_100,electrolyte_033,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001101,device_record_100,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001102,device_record_100,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001103,device_record_100,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001104,device_record_100,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001105,device_record_100,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001106,paper_101,device_record_101,reports,paper_doi,10.1016/j.nanoen.2022.107241,{}
+edge_001107,device_record_101,material_018,uses_material,active_material_raw,Graphene Oxide (GO),{}
+edge_001108,device_record_101,material_class_001,has_material_class,material_class,carbon,{}
+edge_001109,device_record_101,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001110,device_record_101,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001111,device_record_101,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001112,device_record_101,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001113,device_record_101,electrode_001,has_top_electrode,top_electrode,CNT,{}
+edge_001114,device_record_101,electrode_001,has_bottom_electrode,bottom_electrode,CNT,{}
+edge_001115,device_record_101,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001116,device_record_101,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001117,device_record_101,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001118,paper_102,device_record_102,reports,paper_doi,10.1002/adfm.202531296,{}
+edge_001119,device_record_102,material_089,uses_material,active_material_raw,"TOCNF, QCNF, ACNT",{}
+edge_001120,device_record_102,material_class_005,has_material_class,material_class,biomass,{}
+edge_001121,device_record_102,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001122,device_record_102,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001123,device_record_102,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001124,device_record_102,electrolyte_032,uses_electrolyte,inorganic_electrolyte_type,"FeCl3, NaCl",{}
+edge_001125,device_record_102,electrolyte_033,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001126,device_record_102,electrolyte_034,uses_electrolyte,polyelectrolyte_cationic_raw,quaternized cellulose nanofibril  (QCNF),{}
+edge_001127,device_record_102,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001128,device_record_102,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001129,device_record_102,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001130,device_record_102,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001131,device_record_102,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001132,paper_103,device_record_103,reports,paper_doi,10.1021/acsnano.4c00990,{}
+edge_001133,device_record_103,material_090,uses_material,active_material_raw,Delignified Wood,{}
+edge_001134,device_record_103,material_class_005,has_material_class,material_class,biomass,{}
+edge_001135,device_record_103,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001136,device_record_103,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001137,device_record_103,ion_002,has_secondary_mobile_ion,secondary_mobile_ion,OH-,{}
+edge_001138,device_record_103,electrolyte_030,uses_electrolyte,inorganic_electrolyte_type,NaOH,{}
+edge_001139,device_record_103,electrolyte_035,uses_electrolyte,polyelectrolyte_anionic_raw,delignified wood cellulose,{}
+edge_001140,device_record_103,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001141,device_record_103,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001142,device_record_103,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001143,device_record_103,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001144,device_record_103,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001145,paper_104,device_record_104,reports,paper_doi,10.1002/adma.202312209,{}
+edge_001146,device_record_104,material_091,uses_material,active_material_raw,"Graphene Oxide (GO), PSSA, ionic liquid",{}
+edge_001147,device_record_104,material_class_006,has_material_class,material_class,polymer,{}
+edge_001148,device_record_104,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001149,device_record_104,ion_004,has_primary_mobile_ion,primary_mobile_ion,Cl-,{}
+edge_001150,device_record_104,ion_001,has_secondary_mobile_ion,secondary_mobile_ion,H+,{}
+edge_001151,device_record_104,electrolyte_036,uses_electrolyte,inorganic_electrolyte_type,ionic_liquid,{}
+edge_001152,device_record_104,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_001153,device_record_104,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001154,device_record_104,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001155,device_record_104,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001156,device_record_104,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001157,device_record_104,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001158,paper_105,device_record_105,reports,paper_doi,10.1039/d0ee02730h,{}
+edge_001159,device_record_105,material_092,uses_material,active_material_raw,cellulose nanofibre @ Ni-HITP conductive metal-organic framework,{}
+edge_001160,device_record_105,material_class_008,has_material_class,material_class,composite,{}
+edge_001161,device_record_105,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001162,device_record_105,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001163,device_record_105,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001164,device_record_105,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001165,device_record_105,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001166,device_record_105,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001167,device_record_105,mechanism_005,has_mechanism,dominant_mechanism,ion_concentration_gradient + thermo_diffusion,{}
+edge_001168,device_record_105,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001169,device_record_105,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001170,paper_106,device_record_106,reports,paper_doi,10.1016/j.nanoen.2022.107378,{}
+edge_001171,device_record_106,material_093,uses_material,active_material_raw,carboxylated sugarcane,{}
+edge_001172,device_record_106,material_class_005,has_material_class,material_class,biomass,{}
+edge_001173,device_record_106,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001174,device_record_106,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001175,device_record_106,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001176,device_record_106,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001177,device_record_106,electrode_011,has_top_electrode,top_electrode,Steel,{}
+edge_001178,device_record_106,electrode_011,has_bottom_electrode,bottom_electrode,Steel,{}
+edge_001179,device_record_106,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001180,device_record_106,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001181,device_record_106,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001182,paper_107,device_record_107,reports,paper_doi,10.1016/j.nanoen.2025.110731,{}
+edge_001183,device_record_107,material_094,uses_material,active_material_raw,NaV₂O₅·nH₂O,{}
+edge_001184,device_record_107,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_001185,device_record_107,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001186,device_record_107,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001187,device_record_107,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001188,device_record_107,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001189,device_record_107,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001190,device_record_107,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001191,device_record_107,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001192,device_record_107,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001193,device_record_107,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001194,paper_108,device_record_108,reports,paper_doi,10.1016/j.nanoen.2023.108348,{}
+edge_001195,device_record_108,material_095,uses_material,active_material_raw,Ti-deficient unilamellar titanium oxide,{}
+edge_001196,device_record_108,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_001197,device_record_108,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001198,device_record_108,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001199,device_record_108,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001200,device_record_108,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001201,device_record_108,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001202,device_record_108,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001203,device_record_108,water_interaction_mode_001,has_water_interaction_mode,water_interaction_mode,evaporation_driven,{}
+edge_001204,paper_109,device_record_109,reports,paper_doi,10.1002/adfm.201901798,{}
+edge_001205,device_record_109,material_096,uses_material,active_material_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001206,device_record_109,material_class_005,has_material_class,material_class,biomass,{}
+edge_001207,device_record_109,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001208,device_record_109,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001209,device_record_109,electrolyte_033,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001210,device_record_109,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001211,device_record_109,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001212,device_record_109,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001213,device_record_109,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001214,device_record_109,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001215,paper_110,device_record_110,reports,paper_doi,10.1002/adfm.202203666,{}
+edge_001216,device_record_110,material_097,uses_material,active_material_raw,"Regenerated cellulose, CNT",{}
+edge_001217,device_record_110,material_class_005,has_material_class,material_class,biomass,{}
+edge_001218,device_record_110,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001219,device_record_110,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001220,device_record_110,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001221,device_record_110,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001222,device_record_110,electrolyte_037,uses_electrolyte,polyelectrolyte_anionic_raw,Regenerated cellulose,{}
+edge_001223,device_record_110,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001224,device_record_110,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001225,device_record_110,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001226,device_record_110,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001227,device_record_110,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001228,paper_111,device_record_111,reports,paper_doi,10.1016/j.cej.2021.133236,{}
+edge_001229,device_record_111,material_098,uses_material,active_material_raw,ppy/TiO2 nanowires coated cotton fiber,{}
+edge_001230,device_record_111,material_class_005,has_material_class,material_class,biomass,{}
+edge_001231,device_record_111,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001232,device_record_111,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001233,device_record_111,electrolyte_038,uses_electrolyte,polyelectrolyte_cationic_raw,Polypyrrole (PPy),{}
+edge_001234,device_record_111,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001235,device_record_111,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001236,device_record_111,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001237,device_record_111,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001238,device_record_111,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001239,paper_112,device_record_112,reports,paper_doi,10.1038/s41565-024-01691-5,{}
+edge_001240,device_record_112,material_099,uses_material,active_material_raw,"MXene (Ti3C2Tx), PVA",{}
+edge_001241,device_record_112,material_class_006,has_material_class,material_class,polymer,{}
+edge_001242,device_record_112,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001243,device_record_112,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001244,device_record_112,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001245,device_record_112,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001246,device_record_112,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001247,device_record_112,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001248,device_record_112,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001249,paper_113,device_record_113,reports,paper_doi,10.1038/s41467-022-32105-6,{}
+edge_001250,device_record_113,material_100,uses_material,active_material_raw,Geobacter sulfurreducens biofilm,{}
+edge_001251,device_record_113,material_class_005,has_material_class,material_class,biomass,{}
+edge_001252,device_record_113,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001253,device_record_113,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001254,device_record_113,electrolyte_024,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Geobacter sulfurreducens protein nanowires,{}
+edge_001255,device_record_113,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001256,device_record_113,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001257,device_record_113,mechanism_001,has_mechanism,dominant_mechanism,streaming,{}
+edge_001258,device_record_113,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001259,device_record_113,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001260,paper_114,device_record_114,reports,paper_doi,10.1021/acsami.8b16529,{}
+edge_001261,device_record_114,material_101,uses_material,active_material_raw,Graphene,{}
+edge_001262,device_record_114,material_class_001,has_material_class,material_class,carbon,{}
+edge_001263,device_record_114,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001264,device_record_114,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001265,device_record_114,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001266,device_record_114,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001267,device_record_114,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001268,device_record_114,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001269,device_record_114,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001270,device_record_114,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001271,device_record_114,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001272,paper_115,device_record_115,reports,paper_doi,10.1016/j.carbon.2024.119008,{}
+edge_001273,device_record_115,material_102,uses_material,active_material_raw,"carbon black (CB), graphene oxide (GO), cotton fabric (CF)",{}
+edge_001274,device_record_115,material_class_001,has_material_class,material_class,carbon,{}
+edge_001275,device_record_115,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001276,device_record_115,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001277,device_record_115,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001278,device_record_115,electrolyte_039,uses_electrolyte,inorganic_electrolyte_type,"HCl, LiCl, NaCl, KCl",{}
+edge_001279,device_record_115,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001280,device_record_115,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001281,device_record_115,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001282,device_record_115,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001283,device_record_115,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001284,paper_116,device_record_116,reports,paper_doi,10.1016/j.surfin.2023.102853,{}
+edge_001285,device_record_116,material_103,uses_material,active_material_raw,"Carbon Black, Cellulose Acetate",{}
+edge_001286,device_record_116,material_class_005,has_material_class,material_class,biomass,{}
+edge_001287,device_record_116,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001288,device_record_116,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_001289,device_record_116,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001290,device_record_116,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_001291,device_record_116,electrode_002,has_top_electrode,top_electrode,Carbon,{}
+edge_001292,device_record_116,electrode_002,has_bottom_electrode,bottom_electrode,Carbon,{}
+edge_001293,device_record_116,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001294,device_record_116,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001295,device_record_116,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001296,paper_117,device_record_117,reports,paper_doi,10.1002/smll.202306318,{}
+edge_001297,device_record_117,material_104,uses_material,active_material_raw,"Carbon Nanotubes, Carbon Black",{}
+edge_001298,device_record_117,material_class_001,has_material_class,material_class,carbon,{}
+edge_001299,device_record_117,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001300,device_record_117,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001301,device_record_117,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001302,device_record_117,electrolyte_003,uses_electrolyte,inorganic_electrolyte_type,NaCl,{}
+edge_001303,device_record_117,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001304,device_record_117,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001305,device_record_117,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001306,device_record_117,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001307,device_record_117,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001308,paper_118,device_record_118,reports,paper_doi,10.1016/j.carbon.2023.118687,{}
+edge_001309,device_record_118,material_105,uses_material,active_material_raw,"carbon black, cotton fiber rope",{}
+edge_001310,device_record_118,material_class_001,has_material_class,material_class,carbon,{}
+edge_001311,device_record_118,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001312,device_record_118,ion_015,has_primary_mobile_ion,primary_mobile_ion,Fe3+,{}
+edge_001313,device_record_118,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001314,device_record_118,electrolyte_023,uses_electrolyte,inorganic_electrolyte_type,FeCl3,{}
+edge_001315,device_record_118,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001316,device_record_118,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001317,device_record_118,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001318,device_record_118,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001319,device_record_118,water_interaction_mode_002,has_water_interaction_mode,water_interaction_mode,liquid_contact,{}
+edge_001320,paper_119,device_record_119,reports,paper_doi,10.1002/anie.201602708,{}
+edge_001321,device_record_119,material_001,uses_material,active_material_raw,Carbon Black (CB),{}
+edge_001322,device_record_119,material_class_001,has_material_class,material_class,carbon,{}
+edge_001323,device_record_119,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001324,device_record_119,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001325,device_record_119,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001326,device_record_119,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001327,device_record_119,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001328,device_record_119,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001329,device_record_119,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001330,paper_120,device_record_120,reports,paper_doi,10.1016/j.nanoen.2020.104610,{}
+edge_001331,device_record_120,material_106,uses_material,active_material_raw,"TEMPO-oxidized cellulose nanofibrils (TOCNF), quaternized cellulose nanofibrils (QCNF)",{}
+edge_001332,device_record_120,material_class_005,has_material_class,material_class,biomass,{}
+edge_001333,device_record_120,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001334,device_record_120,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001335,device_record_120,electrolyte_033,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001336,device_record_120,electrolyte_040,uses_electrolyte,polyelectrolyte_cationic_raw,quaternized cellulose nanofibrils (QCNF),{}
+edge_001337,device_record_120,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001338,device_record_120,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001339,device_record_120,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001340,device_record_120,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001341,device_record_120,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001342,paper_121,device_record_121,reports,paper_doi,10.1016/j.nanoen.2023.108973,{}
+edge_001343,device_record_121,material_107,uses_material,active_material_raw,"oxidized regenerated cellulose (ORC), aminated regenerated cellulose (ARC)",{}
+edge_001344,device_record_121,material_class_005,has_material_class,material_class,biomass,{}
+edge_001345,device_record_121,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001346,device_record_121,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001347,device_record_121,electrolyte_041,uses_electrolyte,polyelectrolyte_anionic_raw,oxidized regenerated cellulose (ORC),{}
+edge_001348,device_record_121,electrolyte_042,uses_electrolyte,polyelectrolyte_cationic_raw,aminated regenerated cellulose (ARC),{}
+edge_001349,device_record_121,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001350,device_record_121,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001351,device_record_121,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001352,device_record_121,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001353,device_record_121,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001354,paper_122,device_record_122,reports,paper_doi,10.1021/acsnano.0c04686,{}
+edge_001355,device_record_122,material_108,uses_material,active_material_raw,"quaternized silk nanofibrils, carboxylated cellulose nanofibrils",{}
+edge_001356,device_record_122,material_class_005,has_material_class,material_class,biomass,{}
+edge_001357,device_record_122,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001358,device_record_122,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001359,device_record_122,electrolyte_043,uses_electrolyte,polyelectrolyte_anionic_raw,carboxylated cellulose nanofibrils,{}
+edge_001360,device_record_122,electrolyte_044,uses_electrolyte,polyelectrolyte_cationic_raw,quaternized silk nanofibrils,{}
+edge_001361,device_record_122,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001362,device_record_122,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001363,device_record_122,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001364,device_record_122,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001365,device_record_122,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001366,paper_123,device_record_123,reports,paper_doi,10.1039/d0ta11974a,{}
+edge_001367,device_record_123,material_109,uses_material,active_material_raw,"PVA, PEO",{}
+edge_001368,device_record_123,material_class_006,has_material_class,material_class,polymer,{}
+edge_001369,device_record_123,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001370,device_record_123,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001371,device_record_123,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001372,device_record_123,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001373,device_record_123,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001374,device_record_123,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001375,device_record_123,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001376,paper_124,device_record_124,reports,paper_doi,10.1021/acsaem.4c00368,{}
+edge_001377,device_record_124,material_110,uses_material,active_material_raw,"Silk Fibroin (SF), Sericin, Poly(ethylene oxide) (PEO)",{}
+edge_001378,device_record_124,material_class_005,has_material_class,material_class,biomass,{}
+edge_001379,device_record_124,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001380,device_record_124,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001381,device_record_124,electrolyte_045,uses_electrolyte,polyelectrolyte_zwitterionic_raw,"Silk Fibroin, Sericin",{}
+edge_001382,device_record_124,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001383,device_record_124,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001384,device_record_124,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001385,device_record_124,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001386,device_record_124,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001387,paper_125,device_record_125,reports,paper_doi,10.1021/acsami.0c17931,{}
+edge_001388,device_record_125,material_111,uses_material,active_material_raw,cellulose,{}
+edge_001389,device_record_125,material_class_005,has_material_class,material_class,biomass,{}
+edge_001390,device_record_125,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001391,device_record_125,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001392,device_record_125,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001393,device_record_125,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001394,device_record_125,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001395,device_record_125,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001396,device_record_125,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001397,paper_126,device_record_126,reports,paper_doi,10.1039/d1ta10865d,{}
+edge_001398,device_record_126,material_112,uses_material,active_material_raw,"Sulfonated cellulose nanofibrils, MOF",{}
+edge_001399,device_record_126,material_class_005,has_material_class,material_class,biomass,{}
+edge_001400,device_record_126,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001401,device_record_126,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001402,device_record_126,electrolyte_046,uses_electrolyte,polyelectrolyte_anionic_raw,Sulfonated cellulose nanofibrils,{}
+edge_001403,device_record_126,electrode_006,has_top_electrode,top_electrode,Al,{}
+edge_001404,device_record_126,electrode_006,has_bottom_electrode,bottom_electrode,Al,{}
+edge_001405,device_record_126,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001406,device_record_126,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001407,device_record_126,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001408,paper_127,device_record_127,reports,paper_doi,10.1039/c8ta02505c,{}
+edge_001409,device_record_127,material_113,uses_material,active_material_raw,"carbon dots, paper",{}
+edge_001410,device_record_127,material_class_001,has_material_class,material_class,carbon,{}
+edge_001411,device_record_127,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001412,device_record_127,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001413,device_record_127,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001414,device_record_127,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001415,device_record_127,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001416,device_record_127,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001417,device_record_127,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001418,paper_128,device_record_128,reports,paper_doi,10.1016/j.nanoen.2021.106529,{}
+edge_001419,device_record_128,material_114,uses_material,active_material_raw,Silk Fibroin (SF),{}
+edge_001420,device_record_128,material_class_005,has_material_class,material_class,biomass,{}
+edge_001421,device_record_128,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001422,device_record_128,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001423,device_record_128,electrolyte_001,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Silk Fibroin (SF),{}
+edge_001424,device_record_128,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001425,device_record_128,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001426,device_record_128,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001427,device_record_128,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001428,device_record_128,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001429,paper_129,device_record_129,reports,paper_doi,10.1021/acsnano.4c09494,{}
+edge_001430,device_record_129,material_115,uses_material,active_material_raw,"BCSNF, rGO",{}
+edge_001431,device_record_129,material_class_005,has_material_class,material_class,biomass,{}
+edge_001432,device_record_129,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001433,device_record_129,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001434,device_record_129,electrolyte_047,uses_electrolyte,polyelectrolyte_anionic_raw,Bacterial cellulose sulfate nanofibers (BCSNF),{}
+edge_001435,device_record_129,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001436,device_record_129,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001437,device_record_129,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001438,device_record_129,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001439,device_record_129,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001440,paper_130,device_record_130,reports,paper_doi,10.1016/j.cej.2024.156026,{}
+edge_001441,device_record_130,material_116,uses_material,active_material_raw,"wood, ZnO",{}
+edge_001442,device_record_130,material_class_005,has_material_class,material_class,biomass,{}
+edge_001443,device_record_130,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001444,device_record_130,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001445,device_record_130,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001446,device_record_130,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001447,device_record_130,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001448,device_record_130,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001449,device_record_130,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001450,paper_131,device_record_131,reports,paper_doi,10.1038/s41586-020-2010-9,{}
+edge_001451,device_record_131,material_117,uses_material,active_material_raw,protein nanowires,{}
+edge_001452,device_record_131,material_class_005,has_material_class,material_class,biomass,{}
+edge_001453,device_record_131,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001454,device_record_131,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001455,device_record_131,electrolyte_024,uses_electrolyte,polyelectrolyte_zwitterionic_raw,Geobacter sulfurreducens protein nanowires,{}
+edge_001456,device_record_131,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001457,device_record_131,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001458,device_record_131,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001459,device_record_131,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001460,device_record_131,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001461,paper_132,device_record_132,reports,paper_doi,10.1002/advs.202206483,{}
+edge_001462,device_record_132,material_118,uses_material,active_material_raw,"PEDOT:PSS, Bi₂Te₃",{}
+edge_001463,device_record_132,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_001464,device_record_132,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001465,device_record_132,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001466,device_record_132,electrolyte_011,uses_electrolyte,polyelectrolyte_anionic_raw,PEDOT:PSS,{}
+edge_001467,device_record_132,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001468,device_record_132,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001469,device_record_132,mechanism_005,has_mechanism,dominant_mechanism,ion_concentration_gradient + thermo_diffusion,{}
+edge_001470,device_record_132,asymmetry_origin_001,has_asymmetry_origin,asymmetry_origin,environmental_gradient,{}
+edge_001471,device_record_132,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001472,paper_133,device_record_133,reports,paper_doi,10.1021/acsami.3c14264,{}
+edge_001473,device_record_133,material_119,uses_material,active_material_raw,COF-SO3H/CNF aerogel,{}
+edge_001474,device_record_133,material_class_005,has_material_class,material_class,biomass,{}
+edge_001475,device_record_133,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001476,device_record_133,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001477,device_record_133,ion_003,has_secondary_mobile_ion,secondary_mobile_ion,Na+,{}
+edge_001478,device_record_133,electrolyte_048,uses_electrolyte,polyelectrolyte_anionic_raw,Carboxylated cellulose nanofiber (CNF-C),{}
+edge_001479,device_record_133,electrode_011,has_top_electrode,top_electrode,Steel,{}
+edge_001480,device_record_133,electrode_011,has_bottom_electrode,bottom_electrode,Steel,{}
+edge_001481,device_record_133,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001482,device_record_133,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001483,device_record_133,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001484,paper_134,device_record_134,reports,paper_doi,10.1016/j.reactfunctpolym.2023.105806,{}
+edge_001485,device_record_134,material_120,uses_material,active_material_raw,"Chitosan (CS), Konjac Glucomannan (KGM), MCNT",{}
+edge_001486,device_record_134,material_class_005,has_material_class,material_class,biomass,{}
+edge_001487,device_record_134,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001488,device_record_134,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001489,device_record_134,electrolyte_049,uses_electrolyte,polyelectrolyte_cationic_raw,Chitosan (CS),{}
+edge_001490,device_record_134,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001491,device_record_134,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001492,device_record_134,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001493,device_record_134,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001494,device_record_134,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001495,paper_135,device_record_135,reports,paper_doi,10.1039/C9EE00838A,{}
+edge_001496,device_record_135,material_121,uses_material,active_material_raw,Graphene Oxide (GO)/PAAS,{}
+edge_001497,device_record_135,material_class_001,has_material_class,material_class,carbon,{}
+edge_001498,device_record_135,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001499,device_record_135,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001500,device_record_135,electrolyte_050,uses_electrolyte,polyelectrolyte_anionic_raw,sodium polyacrylate (PAAS),{}
+edge_001501,device_record_135,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001502,device_record_135,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001503,device_record_135,mechanism_006,has_mechanism,dominant_mechanism,ion_concentration_gradient + schottky_junction,{}
+edge_001504,device_record_135,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001505,device_record_135,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001506,paper_136,device_record_136,reports,paper_doi,10.1016/j.applthermaleng.2025.127255,{}
+edge_001507,device_record_136,material_122,uses_material,active_material_raw,"carbon black, PVA, paper, CaCl₂",{}
+edge_001508,device_record_136,material_class_001,has_material_class,material_class,carbon,{}
+edge_001509,device_record_136,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001510,device_record_136,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_001511,device_record_136,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001512,device_record_136,electrolyte_004,uses_electrolyte,inorganic_electrolyte_type,CaCl2,{}
+edge_001513,device_record_136,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001514,device_record_136,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001515,device_record_136,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001516,device_record_136,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001517,device_record_136,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001518,paper_137,device_record_137,reports,paper_doi,10.1016/j.apsusc.2025.164747,{}
+edge_001519,device_record_137,material_123,uses_material,active_material_raw,"Graphene oxide (GO), poly[ViEtIm]Br modified reduced graphene oxide",{}
+edge_001520,device_record_137,material_class_001,has_material_class,material_class,carbon,{}
+edge_001521,device_record_137,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001522,device_record_137,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001523,device_record_137,ion_014,has_secondary_mobile_ion,secondary_mobile_ion,Br-,{}
+edge_001524,device_record_137,electrolyte_051,uses_electrolyte,polyelectrolyte_cationic_raw,poly[ViEtIm]Br,{}
+edge_001525,device_record_137,electrode_013,has_top_electrode,top_electrode,Ni,{}
+edge_001526,device_record_137,electrode_013,has_bottom_electrode,bottom_electrode,Ni,{}
+edge_001527,device_record_137,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001528,device_record_137,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001529,device_record_137,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001530,paper_138,device_record_138,reports,paper_doi,10.1021/acsnano.1c07186,{}
+edge_001531,device_record_138,material_124,uses_material,active_material_raw,"Ti3C2Tx MXene, Cellulose, PSSA",{}
+edge_001532,device_record_138,material_class_006,has_material_class,material_class,polymer,{}
+edge_001533,device_record_138,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001534,device_record_138,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001535,device_record_138,electrolyte_052,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrenesulfonic acid) (PSSA),{}
+edge_001536,device_record_138,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001537,device_record_138,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001538,device_record_138,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001539,device_record_138,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001540,device_record_138,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001541,paper_139,device_record_139,reports,paper_doi,10.1021/acs.langmuir.2c00566,{}
+edge_001542,device_record_139,material_125,uses_material,active_material_raw,"Carbon Ink, cellulose",{}
+edge_001543,device_record_139,material_class_005,has_material_class,material_class,biomass,{}
+edge_001544,device_record_139,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001545,device_record_139,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001546,device_record_139,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001547,device_record_139,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001548,device_record_139,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001549,device_record_139,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001550,device_record_139,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001551,paper_140,device_record_140,reports,paper_doi,10.1016/j.nanoen.2024.110187,{}
+edge_001552,device_record_140,material_126,uses_material,active_material_raw,"V2O5, Ni(OH)2, PSS, BTAC salt",{}
+edge_001553,device_record_140,material_class_004,has_material_class,material_class,metal oxide,{}
+edge_001554,device_record_140,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001555,device_record_140,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001556,device_record_140,ion_002,has_secondary_mobile_ion,secondary_mobile_ion,OH-,{}
+edge_001557,device_record_140,electrolyte_013,uses_electrolyte,polyelectrolyte_anionic_raw,poly (4-styrene sulfonic acid) (PSSA),{}
+edge_001558,device_record_140,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001559,device_record_140,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001560,device_record_140,mechanism_005,has_mechanism,dominant_mechanism,ion_concentration_gradient + thermo_diffusion,{}
+edge_001561,device_record_140,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001562,device_record_140,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001563,paper_141,device_record_141,reports,paper_doi,10.1016/j.nanoen.2020.105630,{}
+edge_001564,device_record_141,material_127,uses_material,active_material_raw,MoS2,{}
+edge_001565,device_record_141,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_001566,device_record_141,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001567,device_record_141,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001568,device_record_141,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001569,device_record_141,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001570,device_record_141,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001571,device_record_141,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001572,device_record_141,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001573,paper_142,device_record_142,reports,paper_doi,10.1021/acsnano.3c08543,{}
+edge_001574,device_record_142,material_128,uses_material,active_material_raw,"P(AA-MEA), CMC, PSSA",{}
+edge_001575,device_record_142,material_class_006,has_material_class,material_class,polymer,{}
+edge_001576,device_record_142,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_001577,device_record_142,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001578,device_record_142,electrolyte_053,uses_electrolyte,polyelectrolyte_anionic_raw,"Poly(4-styrene sulfonic acid) (PSSA), Carboxymethyl cellulose sodium (CMC), P(AA-MEA)",{}
+edge_001579,device_record_142,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001580,device_record_142,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001581,device_record_142,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001582,device_record_142,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001583,device_record_142,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001584,paper_143,device_record_143,reports,paper_doi,10.1038/s41467-025-61898-5,{}
+edge_001585,device_record_143,material_129,uses_material,active_material_raw,N-MXene@PVA / P-MXene@PVA bilayer hydrogel,{}
+edge_001586,device_record_143,material_class_006,has_material_class,material_class,polymer,{}
+edge_001587,device_record_143,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_001588,device_record_143,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_001589,device_record_143,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001590,device_record_143,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_001591,device_record_143,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001592,device_record_143,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001593,device_record_143,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001594,device_record_143,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001595,device_record_143,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001596,paper_144,device_record_144,reports,paper_doi,10.1016/j.nanoen.2021.106605,{}
+edge_001597,device_record_144,material_018,uses_material,active_material_raw,Graphene Oxide (GO),{}
+edge_001598,device_record_144,material_class_001,has_material_class,material_class,carbon,{}
+edge_001599,device_record_144,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001600,device_record_144,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001601,device_record_144,electrode_009,has_top_electrode,top_electrode,Cu,{}
+edge_001602,device_record_144,electrode_009,has_bottom_electrode,bottom_electrode,Cu,{}
+edge_001603,device_record_144,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001604,device_record_144,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001605,device_record_144,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001606,paper_145,device_record_145,reports,paper_doi,10.1021/acsnano.4c01179,{}
+edge_001607,device_record_145,material_130,uses_material,active_material_raw,"TEMPO-oxidized cellulose nanofibrils (CNF), imidazolium-based poly(ionic liquid) (PIL), 1-methyl-3-octylimidazolium chloride ([OMIM][Cl])",{}
+edge_001608,device_record_145,material_class_005,has_material_class,material_class,biomass,{}
+edge_001609,device_record_145,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_001610,device_record_145,ion_004,has_primary_mobile_ion,primary_mobile_ion,Cl-,{}
+edge_001611,device_record_145,ion_016,has_secondary_mobile_ion,secondary_mobile_ion,[OMIM]+,{}
+edge_001612,device_record_145,electrolyte_033,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized cellulose nanofibrils (TOCNF),{}
+edge_001613,device_record_145,electrolyte_054,uses_electrolyte,polyelectrolyte_cationic_raw,imidazolium-based poly(ionic liquid) (PIL),{}
+edge_001614,device_record_145,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001615,device_record_145,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001616,device_record_145,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001617,device_record_145,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001618,device_record_145,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001619,paper_146,device_record_146,reports,paper_doi,10.1039/C8EE01502C,{}
+edge_001620,device_record_146,material_018,uses_material,active_material_raw,Graphene Oxide (GO),{}
+edge_001621,device_record_146,material_class_001,has_material_class,material_class,carbon,{}
+edge_001622,device_record_146,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001623,device_record_146,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001624,device_record_146,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001625,device_record_146,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001626,device_record_146,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001627,device_record_146,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001628,device_record_146,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001629,paper_147,device_record_147,reports,paper_doi,10.1021/acs.nanolett.2c00919,{}
+edge_001630,device_record_147,material_131,uses_material,active_material_raw,Balsa Wood,{}
+edge_001631,device_record_147,material_class_005,has_material_class,material_class,biomass,{}
+edge_001632,device_record_147,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001633,device_record_147,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001634,device_record_147,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001635,device_record_147,electrolyte_055,uses_electrolyte,polyelectrolyte_anionic_raw,TEMPO-oxidized wood,{}
+edge_001636,device_record_147,electrolyte_056,uses_electrolyte,polyelectrolyte_cationic_raw,quaternized wood,{}
+edge_001637,device_record_147,electrode_010,has_top_electrode,top_electrode,Pt,{}
+edge_001638,device_record_147,electrode_010,has_bottom_electrode,bottom_electrode,Pt,{}
+edge_001639,device_record_147,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001640,device_record_147,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001641,device_record_147,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001642,paper_148,device_record_148,reports,paper_doi,10.1039/d2ta05221k,{}
+edge_001643,device_record_148,material_132,uses_material,active_material_raw,potassium polyacrylate ionic hydrogel,{}
+edge_001644,device_record_148,material_class_006,has_material_class,material_class,polymer,{}
+edge_001645,device_record_148,structure_class_003,has_structure_class,structure_class,hydrogel,{}
+edge_001646,device_record_148,ion_008,has_primary_mobile_ion,primary_mobile_ion,K+,{}
+edge_001647,device_record_148,electrolyte_057,uses_electrolyte,polyelectrolyte_anionic_raw,polyacrylic acid (PAA),{}
+edge_001648,device_record_148,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001649,device_record_148,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001650,device_record_148,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001651,device_record_148,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001652,device_record_148,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001653,paper_149,device_record_149,reports,paper_doi,10.1016/j.enconman.2025.120396,{}
+edge_001654,device_record_149,material_133,uses_material,active_material_raw,polyvinyl alcohol (PVA)-phytic acid (PA)-lithium chloride (LiCl) asymmetric hydrogel (AH) coated on carbon fabric,{}
+edge_001655,device_record_149,material_class_006,has_material_class,material_class,polymer,{}
+edge_001656,device_record_149,structure_class_004,has_structure_class,structure_class,hydrogel + porous,{}
+edge_001657,device_record_149,ion_010,has_primary_mobile_ion,primary_mobile_ion,Li+,{}
+edge_001658,device_record_149,ion_012,has_secondary_mobile_ion,secondary_mobile_ion,"H+, Cl-",{}
+edge_001659,device_record_149,electrolyte_014,uses_electrolyte,inorganic_electrolyte_type,LiCl,{}
+edge_001660,device_record_149,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001661,device_record_149,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001662,device_record_149,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001663,device_record_149,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001664,device_record_149,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001665,paper_150,device_record_150,reports,paper_doi,10.1063/5.0083220,{}
+edge_001666,device_record_150,material_134,uses_material,active_material_raw,"MoS₂ nanosheets, cellulose sponge, NaOH",{}
+edge_001667,device_record_150,material_class_002,has_material_class,material_class,semiconductor,{}
+edge_001668,device_record_150,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001669,device_record_150,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001670,device_record_150,ion_002,has_secondary_mobile_ion,secondary_mobile_ion,OH-,{}
+edge_001671,device_record_150,electrolyte_030,uses_electrolyte,inorganic_electrolyte_type,NaOH,{}
+edge_001672,device_record_150,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001673,device_record_150,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001674,device_record_150,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001675,device_record_150,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001676,device_record_150,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001677,paper_151,device_record_151,reports,paper_doi,10.1038/s41467-023-41371-x,{}
+edge_001678,device_record_151,material_135,uses_material,active_material_raw,CaCl2-loaded carbon fabric + PVA-LiCl/H-PSS polyelectrolyte membrane,{}
+edge_001679,device_record_151,material_class_006,has_material_class,material_class,polymer,{}
+edge_001680,device_record_151,structure_class_004,has_structure_class,structure_class,hydrogel + porous,{}
+edge_001681,device_record_151,ion_005,has_primary_mobile_ion,primary_mobile_ion,Ca2+,{}
+edge_001682,device_record_151,ion_017,has_secondary_mobile_ion,secondary_mobile_ion,"Cl-, Li+, SO3-",{}
+edge_001683,device_record_151,electrolyte_058,uses_electrolyte,inorganic_electrolyte_type,"CaCl2, LiCl, H2SO4",{}
+edge_001684,device_record_151,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_001685,device_record_151,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001686,device_record_151,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001687,device_record_151,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001688,device_record_151,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001689,device_record_151,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001690,paper_152,device_record_152,reports,paper_doi,10.1016/j.nanoen.2022.107709,{}
+edge_001691,device_record_152,material_136,uses_material,active_material_raw,β-Lactoglobulin,{}
+edge_001692,device_record_152,material_class_005,has_material_class,material_class,biomass,{}
+edge_001693,device_record_152,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001694,device_record_152,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001695,device_record_152,electrolyte_059,uses_electrolyte,polyelectrolyte_zwitterionic_raw,milk β-lactoglobulin protein,{}
+edge_001696,device_record_152,electrode_007,has_top_electrode,top_electrode,Ti,{}
+edge_001697,device_record_152,electrode_005,has_bottom_electrode,bottom_electrode,TO,{}
+edge_001698,device_record_152,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001699,device_record_152,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001700,device_record_152,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001701,paper_153,device_record_153,reports,paper_doi,10.1016/j.cej.2023.145325,{}
+edge_001702,device_record_153,material_137,uses_material,active_material_raw,"SA, MWCNT",{}
+edge_001703,device_record_153,material_class_005,has_material_class,material_class,biomass,{}
+edge_001704,device_record_153,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001705,device_record_153,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001706,device_record_153,electrolyte_060,uses_electrolyte,polyelectrolyte_anionic_raw,sodium alginate (SA),{}
+edge_001707,device_record_153,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001708,device_record_153,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001709,device_record_153,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001710,device_record_153,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001711,device_record_153,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001712,paper_154,device_record_154,reports,paper_doi,10.1038/s41467-022-30156-3,{}
+edge_001713,device_record_154,material_138,uses_material,active_material_raw,"sodium alginate, SiO2 nanofiber, rGO",{}
+edge_001714,device_record_154,material_class_005,has_material_class,material_class,biomass,{}
+edge_001715,device_record_154,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001716,device_record_154,ion_003,has_primary_mobile_ion,primary_mobile_ion,Na+,{}
+edge_001717,device_record_154,electrolyte_060,uses_electrolyte,polyelectrolyte_anionic_raw,sodium alginate (SA),{}
+edge_001718,device_record_154,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001719,device_record_154,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001720,device_record_154,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001721,device_record_154,asymmetry_origin_007,has_asymmetry_origin,asymmetry_origin,electrode,{}
+edge_001722,device_record_154,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001723,paper_155,device_record_155,reports,paper_doi,10.1002/advs.202300750,{}
+edge_001724,device_record_155,material_139,uses_material,active_material_raw,"(GO)PANI, F-Nafion(PDDA)",{}
+edge_001725,device_record_155,material_class_006,has_material_class,material_class,polymer,{}
+edge_001726,device_record_155,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001727,device_record_155,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001728,device_record_155,ion_004,has_secondary_mobile_ion,secondary_mobile_ion,Cl-,{}
+edge_001729,device_record_155,electrolyte_019,uses_electrolyte,polyelectrolyte_anionic_raw,Nafion,{}
+edge_001730,device_record_155,electrolyte_061,uses_electrolyte,polyelectrolyte_cationic_raw,"polyaniline (PANI), poly(diallyldimethylammonium chloride) (PDDA)",{}
+edge_001731,device_record_155,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001732,device_record_155,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001733,device_record_155,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001734,device_record_155,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001735,device_record_155,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001736,paper_156,device_record_156,reports,paper_doi,10.1016/j.cej.2023.142097,{}
+edge_001737,device_record_156,material_018,uses_material,active_material_raw,Graphene Oxide (GO),{}
+edge_001738,device_record_156,material_class_001,has_material_class,material_class,carbon,{}
+edge_001739,device_record_156,structure_class_001,has_structure_class,structure_class,porous,{}
+edge_001740,device_record_156,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001741,device_record_156,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001742,device_record_156,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001743,device_record_156,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001744,device_record_156,asymmetry_origin_004,has_asymmetry_origin,asymmetry_origin,chemical,{}
+edge_001745,device_record_156,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001746,paper_157,device_record_157,reports,paper_doi,10.1039/d4ta05041j,{}
+edge_001747,device_record_157,material_140,uses_material,active_material_raw,graphene oxide/polyvinyl alcohol/polyethylene glycol (GO/PVA/PEG),{}
+edge_001748,device_record_157,material_class_001,has_material_class,material_class,carbon,{}
+edge_001749,device_record_157,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001750,device_record_157,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001751,device_record_157,electrode_008,has_top_electrode,top_electrode,Ag,{}
+edge_001752,device_record_157,electrode_008,has_bottom_electrode,bottom_electrode,Ag,{}
+edge_001753,device_record_157,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001754,device_record_157,asymmetry_origin_002,has_asymmetry_origin,asymmetry_origin,chemical + environmental,{}
+edge_001755,device_record_157,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001756,paper_158,device_record_158,reports,paper_doi,10.1002/adma.202103897,{}
+edge_001757,device_record_158,material_141,uses_material,active_material_raw,"PSSA, Rose Bengal, PEDOT:PSS",{}
+edge_001758,device_record_158,material_class_006,has_material_class,material_class,polymer,{}
+edge_001759,device_record_158,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001760,device_record_158,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001761,device_record_158,electrolyte_062,uses_electrolyte,polyelectrolyte_anionic_raw,"Poly(4-styrene sulfonic acid) (PSSA), PEDOT:PSS",{}
+edge_001762,device_record_158,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001763,device_record_158,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001764,device_record_158,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001765,device_record_158,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001766,device_record_158,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}
+edge_001767,paper_159,device_record_159,reports,paper_doi,10.1039/D3EE00843F,{}
+edge_001768,device_record_159,material_142,uses_material,active_material_raw,"PSSA, Kuromanin (Ke)",{}
+edge_001769,device_record_159,material_class_006,has_material_class,material_class,polymer,{}
+edge_001770,device_record_159,structure_class_002,has_structure_class,structure_class,film,{}
+edge_001771,device_record_159,ion_001,has_primary_mobile_ion,primary_mobile_ion,H+,{}
+edge_001772,device_record_159,electrolyte_006,uses_electrolyte,polyelectrolyte_anionic_raw,Poly(4-styrene sulfonic acid) (PSSA),{}
+edge_001773,device_record_159,electrode_012,has_top_electrode,top_electrode,Au,{}
+edge_001774,device_record_159,electrode_012,has_bottom_electrode,bottom_electrode,Au,{}
+edge_001775,device_record_159,mechanism_002,has_mechanism,dominant_mechanism,ion_concentration_gradient,{}
+edge_001776,device_record_159,asymmetry_origin_005,has_asymmetry_origin,asymmetry_origin,electrode + chemical,{}
+edge_001777,device_record_159,water_interaction_mode_003,has_water_interaction_mode,water_interaction_mode,vapor_adsorption,{}

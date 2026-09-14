@@ -1,0 +1,9 @@
+name: hydrokg
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas>=2.1
+  - pytest>=8
+  - ruff>=0.5
+  - pip

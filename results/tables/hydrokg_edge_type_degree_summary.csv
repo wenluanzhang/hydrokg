@@ -1,0 +1,13 @@
+edge_type,edge_count,incident_node_count,min_degree,max_degree,mean_degree,median_degree
+has_asymmetry_origin,159,166,1,72,1.915663,1.0
+has_bottom_electrode,159,172,1,48,1.848837,1.0
+has_material_class,159,167,1,53,1.904192,1.0
+has_mechanism,159,165,1,100,1.927273,1.0
+has_primary_mobile_ion,159,169,1,96,1.881657,1.0
+has_secondary_mobile_ion,65,77,1,43,1.688312,1.0
+has_structure_class,159,164,1,118,1.939024,1.0
+has_top_electrode,159,172,1,48,1.848837,1.0
+has_water_interaction_mode,159,162,1,74,1.962963,1.0
+reports,159,318,1,1,1,1.0
+uses_electrolyte,122,161,1,21,1.515528,1.0
+uses_material,159,301,1,12,1.056478,1.0

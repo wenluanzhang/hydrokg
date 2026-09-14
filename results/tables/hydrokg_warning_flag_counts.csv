@@ -1,0 +1,5 @@
+warning_flag,match_count,fraction_of_devices
+electrochemical_control_needed_warning,84,0.5283018867924528
+incomplete_reporting_warning,65,0.4088050314465409
+missing_R_warning,47,0.29559748427672955
+missing_humidity_warning,33,0.20754716981132076

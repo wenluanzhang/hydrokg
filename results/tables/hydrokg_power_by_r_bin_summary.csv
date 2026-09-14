@@ -1,0 +1,4 @@
+r_bin,device_count,median_estimated_power_density_uW_cm2,median_log_estimated_power_density
+missing_R,47,0.1,-0.999995657
+low_R,55,2.85,0.454845012
+high_R,57,0.15,-0.823905846

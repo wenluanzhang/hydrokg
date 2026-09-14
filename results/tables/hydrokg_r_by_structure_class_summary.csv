@@ -1,0 +1,6 @@
+structure_class,device_count,r_reported_count,r_reported_fraction,low_R_count,high_R_count,missing_R_count,low_R_fraction,median_internal_resistance_Mohm,median_log_internal_resistance_Mohm,median_estimated_power_density_uW_cm2,median_log_estimated_power_density
+film,22,13,0.5909090909090909,7,6,9,0.3181818181818182,0.1,-1.0,4.750624999999999,0.6709793575
+hydrogel,14,10,0.7142857142857143,9,1,4,0.6428571428571429,0.01,-2.0,1.19375,0.076907796
+hydrogel + film,1,1,1.0,1,0,0,1.0,0.04,-1.397940009,10.137,1.005909489
+hydrogel + porous,4,4,1.0,4,0,0,1.0,0.015,-1.849485002,6.0305,0.7802960405
+porous,118,84,0.711864406779661,34,50,34,0.288135593220339,0.6,-0.227965978,0.15,-0.823905846

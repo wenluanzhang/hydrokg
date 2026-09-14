@@ -1,0 +1,80 @@
+node_type,label,count,fraction_of_selected_devices
+AsymmetryOrigin,chemical,6,0.2608695652173913
+AsymmetryOrigin,chemical + environmental,2,0.08695652173913043
+AsymmetryOrigin,electrode,3,0.13043478260869565
+AsymmetryOrigin,electrode + chemical,6,0.2608695652173913
+AsymmetryOrigin,electrode + chemical + environmental,1,0.043478260869565216
+AsymmetryOrigin,electrode + environmental,1,0.043478260869565216
+AsymmetryOrigin,environmental_gradient,4,0.17391304347826086
+Electrode,Ag,1,0.043478260869565216
+Electrode,Al,2,0.08695652173913043
+Electrode,Au,7,0.30434782608695654
+Electrode,Carbon,11,0.4782608695652174
+Electrode,Pt,2,0.08695652173913043
+Electrolyte,CaCl2,1,0.043478260869565216
+Electrolyte,"CaCl2, LiCl, H2SO4",1,0.043478260869565216
+Electrolyte,FeCl3,2,0.08695652173913043
+Electrolyte,"FeCl3, NaCl",2,0.08695652173913043
+Electrolyte,"KCl, NaCl, LiCl, CaCl2",1,0.043478260869565216
+Electrolyte,LiCl,2,0.08695652173913043
+Electrolyte,NaCl,2,0.08695652173913043
+Electrolyte,"NaCl, NaOH",1,0.043478260869565216
+Electrolyte,NaOH,1,0.043478260869565216
+Electrolyte,Nafion,2,0.08695652173913043
+Electrolyte,Poly(4-styrene sulfonic acid) (PSSA),5,0.21739130434782608
+Electrolyte,"Poly(4-styrene sulfonic acid) (PSSA), PEDOT:PSS",1,0.043478260869565216
+Electrolyte,Poly(AETA),1,0.043478260869565216
+Electrolyte,Poly(glutamic acid) (PGA),1,0.043478260869565216
+Electrolyte,Sodium Alginate (SA),1,0.043478260869565216
+Electrolyte,TEMPO-oxidized cellulose nanofibrils (TOCNF),2,0.08695652173913043
+Electrolyte,delignified wood cellulose,1,0.043478260869565216
+Electrolyte,ionic_liquid,1,0.043478260869565216
+Electrolyte,"polyaniline (PANI), poly(diallyldimethylammonium chloride) (PDDA)",1,0.043478260869565216
+Electrolyte,quaternized cellulose nanofibril  (QCNF),1,0.043478260869565216
+Electrolyte,sodium alginate (SA),1,0.043478260869565216
+Ion,Ca2+,2,0.08695652173913043
+Ion,Cl-,12,0.5217391304347826
+Ion,"Cl-, Li+, SO3-",1,0.043478260869565216
+Ion,Fe3+,2,0.08695652173913043
+Ion,H+,8,0.34782608695652173
+Ion,"H+, Cl-",1,0.043478260869565216
+Ion,K+,1,0.043478260869565216
+Ion,Li+,2,0.08695652173913043
+Ion,Na+,8,0.34782608695652173
+Ion,"Na+, Li+, Ca2+, Cl-",1,0.043478260869565216
+Ion,OH-,1,0.043478260869565216
+Material,"(GO)PANI, F-Nafion(PDDA)",1,0.043478260869565216
+Material,CaCl2-loaded carbon fabric + PVA-LiCl/H-PSS polyelectrolyte membrane,1,0.043478260869565216
+Material,Delignified Wood,1,0.043478260869565216
+Material,Graphene Oxide (GO),1,0.043478260869565216
+Material,"Graphene Oxide (GO), PSSA, ionic liquid",1,0.043478260869565216
+Material,Iron Hydrogel,1,0.043478260869565216
+Material,"Nafion, pNIPAm",1,0.043478260869565216
+Material,"PGA, cellulose nanofibers",1,0.043478260869565216
+Material,PSSA,2,0.08695652173913043
+Material,"PSSA, Kuromanin (Ke)",1,0.043478260869565216
+Material,"PSSA, Rose Bengal, PEDOT:PSS",1,0.043478260869565216
+Material,Porous P(VdF-HFP) + PVA-PA-LiCl ionic hydrogel,1,0.043478260869565216
+Material,"SA, poly(AETA), PVA",1,0.043478260869565216
+Material,"TOCNF, QCNF, ACNT",1,0.043478260869565216
+Material,TOCNF/CCNT,1,0.043478260869565216
+Material,"carbon black, cotton fiber rope",1,0.043478260869565216
+Material,"cellulose, carbon black (CB)",1,0.043478260869565216
+Material,"cellulose, carbon black, CaCl2",1,0.043478260869565216
+Material,melamine-derived carbon foam (CF),1,0.043478260869565216
+Material,polyvinyl alcohol (PVA)-phytic acid (PA)-lithium chloride (LiCl) asymmetric hydrogel (AH) coated on carbon fabric,1,0.043478260869565216
+Material,"sodium alginate, SiO2 nanofiber, rGO",1,0.043478260869565216
+Material,walnut shell,1,0.043478260869565216
+MaterialClass,biomass,8,0.34782608695652173
+MaterialClass,carbon,3,0.13043478260869565
+MaterialClass,polymer,12,0.5217391304347826
+Mechanism,ion_concentration_gradient,22,0.9565217391304348
+Mechanism,ion_concentration_gradient + radiative_cooling_enhanced_evaporation,1,0.043478260869565216
+StructureClass,film,6,0.2608695652173913
+StructureClass,hydrogel,3,0.13043478260869565
+StructureClass,hydrogel + film,1,0.043478260869565216
+StructureClass,hydrogel + porous,3,0.13043478260869565
+StructureClass,porous,10,0.43478260869565216
+WaterInteractionMode,evaporation_driven,7,0.30434782608695654
+WaterInteractionMode,liquid_contact,1,0.043478260869565216
+WaterInteractionMode,vapor_adsorption,15,0.6521739130434783

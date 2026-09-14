@@ -1,0 +1,288 @@
+{
+  "schema_name": "HydroKG Schema",
+  "schema_version": "1.0",
+  "status": "draft",
+  "description": "First-version mapping from the curated HydroKG seed CSV to graph node, edge, and DeviceRecord attribute types. This document defines structure only and does not implement graph construction.",
+  "source": {
+    "file": "data/raw/hydrovoltaic_ml_curated_159_seed.csv",
+    "row_entity": "DeviceRecord",
+    "row_count": 159,
+    "column_count": 52,
+    "missing_value_rule": "Treat empty CSV cells as absent values; do not create nodes, edges, or attributes from them."
+  },
+  "node_types": {
+    "Paper": {
+      "description": "A publication reporting one or more hydrovoltaic device records.",
+      "identity_columns": [
+        "paper_doi"
+      ],
+      "attributes": {
+        "paper_doi": "string",
+        "ref_year": "integer",
+        "review_covered": "boolean"
+      }
+    },
+    "DeviceRecord": {
+      "description": "One row of the seed CSV representing a reported device or experimental record.",
+      "identity": {
+        "strategy": "generated",
+        "template": "device_record_{row_number}",
+        "note": "Row number is one-based over data rows and is used only as a stable first-version record identifier."
+      },
+      "attributes": {
+        "numeric": {
+          "rh_percent": "number",
+          "inorganic_electrolyte_concentration_wt%": "number",
+          "voc_V": "number",
+          "jsc_uA_cm2": "number",
+          "power_density_uW_cm2": "number",
+          "internal_resistance_Mohm": "number",
+          "stability_time_min": "number",
+          "estimated_power_density_uW_cm2": "number",
+          "log_estimated_power_density": "number",
+          "log_internal_resistance_Mohm": "number"
+        },
+        "boolean": {
+          "built_in_asymmetry": "boolean",
+          "secondary_ion_present": "boolean",
+          "auxiliary_redox_present": "boolean",
+          "continuous_output": "boolean",
+          "inorganic_electrolyte_present": "boolean",
+          "polyelectrolyte_present": "boolean",
+          "electrode_symmetry": "boolean",
+          "metal_electrode": "boolean",
+          "has_anionic": "boolean",
+          "has_cationic": "boolean",
+          "has_zwitterionic": "boolean",
+          "has_any_polyelectrolyte": "boolean",
+          "asym_env": "boolean",
+          "asym_chem": "boolean",
+          "asym_electrode": "boolean",
+          "ion_from_material": "boolean",
+          "ion_from_electrolyte": "boolean",
+          "ion_from_water": "boolean",
+          "has_internal_resistance": "boolean"
+        },
+        "descriptive": {
+          "device_structure": "string",
+          "ion_origin": "string",
+          "ionic_groups": "string",
+          "output_timescale_class": "string",
+          "polyelectrolyte_anionic_raw": "string",
+          "polyelectrolyte_cationic_raw": "string",
+          "polyelectrolyte_zwitterionic_raw": "string",
+          "ion_type": "string",
+          "mechanism_simple": "string"
+        }
+      }
+    },
+    "Material": {
+      "description": "The active material used by a device record.",
+      "identity_columns": [
+        "active_material_raw"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "MaterialClass": {
+      "description": "A normalized material category.",
+      "identity_columns": [
+        "material_class"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "StructureClass": {
+      "description": "A normalized physical structure category for an active material.",
+      "identity_columns": [
+        "structure_class"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "Ion": {
+      "description": "A primary or secondary mobile ion.",
+      "identity_columns": [
+        "primary_mobile_ion",
+        "secondary_mobile_ion"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "Electrolyte": {
+      "description": "An inorganic electrolyte or named polyelectrolyte associated with a device record.",
+      "identity_columns": [
+        "inorganic_electrolyte_type",
+        "polyelectrolyte_anionic_raw",
+        "polyelectrolyte_cationic_raw",
+        "polyelectrolyte_zwitterionic_raw"
+      ],
+      "attributes": {
+        "name": "string",
+        "electrolyte_category": "string"
+      },
+      "identity_note": "Each non-empty source column value identifies a separate Electrolyte node; electrolyte_category records the source category."
+    },
+    "Electrode": {
+      "description": "A named top or bottom electrode material.",
+      "identity_columns": [
+        "top_electrode",
+        "bottom_electrode"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "Mechanism": {
+      "description": "The dominant mechanism assigned to a device record.",
+      "identity_columns": [
+        "dominant_mechanism"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "AsymmetryOrigin": {
+      "description": "The reported origin of built-in device asymmetry.",
+      "identity_columns": [
+        "asymmetry_origin"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    },
+    "WaterInteractionMode": {
+      "description": "The mode by which water interacts with or drives the device.",
+      "identity_columns": [
+        "water_interaction_mode"
+      ],
+      "attributes": {
+        "name": "string"
+      }
+    }
+  },
+  "edge_types": {
+    "reports": {
+      "source_node": "Paper",
+      "target_node": "DeviceRecord",
+      "source_columns": [
+        "paper_doi"
+      ],
+      "cardinality": "many_to_one_from_device_records",
+      "create_when": "paper_doi is non-empty"
+    },
+    "uses_material": {
+      "source_node": "DeviceRecord",
+      "target_node": "Material",
+      "source_columns": [
+        "active_material_raw"
+      ],
+      "cardinality": "many_to_one",
+      "create_when": "active_material_raw is non-empty"
+    },
+    "has_material_class": {
+      "source_node": "DeviceRecord",
+      "target_node": "MaterialClass",
+      "source_columns": [
+        "material_class"
+      ],
+      "cardinality": "many_to_one",
+      "create_when": "material_class is non-empty"
+    },
+    "has_structure_class": {
+      "source_node": "DeviceRecord",
+      "target_node": "StructureClass",
+      "source_columns": [
+        "structure_class"
+      ],
+      "cardinality": "many_to_one",
+      "create_when": "structure_class is non-empty"
+    },
+    "has_primary_mobile_ion": {
+      "source_node": "DeviceRecord",
+      "target_node": "Ion",
+      "source_columns": [
+        "primary_mobile_ion"
+      ],
+      "cardinality": "many_to_one",
+      "create_when": "primary_mobile_ion is non-empty"
+    },
+    "has_secondary_mobile_ion": {
+      "source_node": "DeviceRecord",
+      "target_node": "Ion",
+      "source_columns": [
+        "secondary_mobile_ion"
+      ],
+      "cardinality": "many_to_one_optional",
+      "create_when": "secondary_ion_present is true and secondary_mobile_ion is non-empty"
+    },
+    "uses_electrolyte": {
+      "source_node": "DeviceRecord",
+      "target_node": "Electrolyte",
+      "source_columns": [
+        "inorganic_electrolyte_type",
+        "polyelectrolyte_anionic_raw",
+        "polyelectrolyte_cationic_raw",
+        "polyelectrolyte_zwitterionic_raw"
+      ],
+      "cardinality": "many_to_many_optional",
+      "create_when": "A listed electrolyte source column is non-empty."
+    },
+    "has_top_electrode": {
+      "source_node": "DeviceRecord",
+      "target_node": "Electrode",
+      "source_columns": [
+        "top_electrode"
+      ],
+      "cardinality": "many_to_one_optional",
+      "create_when": "top_electrode is non-empty"
+    },
+    "has_bottom_electrode": {
+      "source_node": "DeviceRecord",
+      "target_node": "Electrode",
+      "source_columns": [
+        "bottom_electrode"
+      ],
+      "cardinality": "many_to_one_optional",
+      "create_when": "bottom_electrode is non-empty"
+    },
+    "has_mechanism": {
+      "source_node": "DeviceRecord",
+      "target_node": "Mechanism",
+      "source_columns": [
+        "dominant_mechanism"
+      ],
+      "cardinality": "many_to_one",
+      "create_when": "dominant_mechanism is non-empty"
+    },
+    "has_asymmetry_origin": {
+      "source_node": "DeviceRecord",
+      "target_node": "AsymmetryOrigin",
+      "source_columns": [
+        "asymmetry_origin"
+      ],
+      "cardinality": "many_to_one_optional",
+      "create_when": "asymmetry_origin is non-empty"
+    },
+    "has_water_interaction_mode": {
+      "source_node": "DeviceRecord",
+      "target_node": "WaterInteractionMode",
+      "source_columns": [
+        "water_interaction_mode"
+      ],
+      "cardinality": "many_to_one_optional",
+      "create_when": "water_interaction_mode is non-empty"
+    }
+  },
+  "mapping_notes": [
+    "Node identity values should be trimmed before matching, while preserving the source text as the first-version display value.",
+    "Repeated non-empty identity values refer to the same node type instance.",
+    "DeviceRecord attributes retain the seed CSV column names and units.",
+    "Derived seed columns are retained as DeviceRecord attributes but are not treated as independent nodes.",
+    "No graph library, serialization format, ontology semantics, or construction procedure is specified by this schema."
+  ]
+}

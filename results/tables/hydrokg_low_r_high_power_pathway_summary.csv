@@ -1,0 +1,9 @@
+material_class,structure_class,dominant_mechanism,device_count,median_internal_resistance_Mohm,median_estimated_power_density_uW_cm2
+biomass,hydrogel,ion_concentration_gradient,1,0.1,4.4
+biomass,porous,ion_concentration_gradient,7,0.005,10.5028
+carbon,porous,ion_concentration_gradient,3,0.04,18.15
+polymer,film,ion_concentration_gradient,6,0.025,26.175
+polymer,hydrogel,ion_concentration_gradient,1,0.01,6.125
+polymer,hydrogel,ion_concentration_gradient + radiative_cooling_enhanced_evaporation,1,0.009,67.32
+polymer,hydrogel + film,ion_concentration_gradient,1,0.04,10.137
+polymer,hydrogel + porous,ion_concentration_gradient,3,0.02,6.1285

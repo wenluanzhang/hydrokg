@@ -1,0 +1,220 @@
+{
+  "schema_name": "HydroKG R-Centered Semantic Layer",
+  "schema_version": "1.0",
+  "status": "design",
+  "description": "First-version design for interpretable R-centered semantic concepts and relations. This schema does not define pathway rules or semantic graph construction.",
+  "base_entity_types": [
+    "DeviceRecord"
+  ],
+  "concept_types": {
+    "RBin": {
+      "description": "An interpretable resistance reporting or magnitude category derived from DeviceRecord attributes.",
+      "concepts": {
+        "missing_R": {
+          "label": "Missing resistance",
+          "description": "The device record does not report internal resistance."
+        },
+        "low_R": {
+          "label": "Low resistance",
+          "description": "The device record is assigned to the established low-resistance bin."
+        },
+        "high_R": {
+          "label": "High resistance",
+          "description": "The device record is assigned to the established high-resistance bin."
+        }
+      }
+    },
+    "PowerBin": {
+      "description": "An interpretable power reporting or performance category derived from DeviceRecord attributes.",
+      "concepts": {
+        "high_power": {
+          "label": "High power",
+          "description": "The device record meets the established high-power criterion."
+        },
+        "non_high_power": {
+          "label": "Non-high power",
+          "description": "The device record reports power but does not meet the high-power criterion."
+        },
+        "missing_power": {
+          "label": "Missing power",
+          "description": "The device record does not report or support an estimated power value."
+        }
+      }
+    },
+    "Pathway": {
+      "description": "A manually defined, physics-informed physical pathway hypothesis for later device-context reasoning.",
+      "concepts": {
+        "connected_pore_ion_transport_pathway": {
+          "label": "Connected-pore ion transport pathway",
+          "description": "Describes ion transport through connected porous structures that may support lower resistance."
+        },
+        "hydrated_network_ionic_conduction_pathway": {
+          "label": "Hydrated-network ionic conduction pathway",
+          "description": "Describes ionic conduction through a continuous hydrated material network."
+        },
+        "biomass_fiber_capillary_pathway": {
+          "label": "Biomass-fiber capillary pathway",
+          "description": "Describes capillary water and ion transport through aligned or connected biomass fibers."
+        },
+        "film_based_ion_concentration_gradient_pathway": {
+          "label": "Film-based ion concentration gradient pathway",
+          "description": "Describes ion concentration gradient behavior in film-based device structures."
+        }
+      }
+    },
+    "WarningFlag": {
+      "description": "An interpretable warning attached to a device during later device-context reasoning.",
+      "concepts": {
+        "missing_R_warning": {
+          "label": "Missing resistance warning",
+          "description": "Internal resistance is not reported."
+        },
+        "missing_humidity_warning": {
+          "label": "Missing humidity warning",
+          "description": "Relative humidity is not reported."
+        },
+        "electrochemical_control_needed_warning": {
+          "label": "Electrochemical control needed warning",
+          "description": "Available context indicates that electrochemical controls are needed to assess possible contributions without implying that confounding has been demonstrated."
+        },
+        "incomplete_reporting_warning": {
+          "label": "Incomplete reporting warning",
+          "description": "Key reporting items needed for interpretation are incomplete."
+        }
+      }
+    },
+    "DesignVariable": {
+      "description": "A controllable or characterizable variable relevant to R-centered pathway design.",
+      "concepts": {
+        "pore_connectivity": {
+          "label": "Pore connectivity",
+          "description": "Connectivity of pores available for water and ion transport."
+        },
+        "hydrated_pathway_continuity": {
+          "label": "Hydrated pathway continuity",
+          "description": "Continuity of hydrated domains available for ionic conduction."
+        },
+        "ionic_conductivity": {
+          "label": "Ionic conductivity",
+          "description": "Ionic conductivity of the active transport medium."
+        },
+        "film_thickness": {
+          "label": "Film thickness",
+          "description": "Thickness of the active film or transport layer."
+        },
+        "electrode_spacing": {
+          "label": "Electrode spacing",
+          "description": "Distance between device electrodes."
+        },
+        "electrolyte_concentration": {
+          "label": "Electrolyte concentration",
+          "description": "Concentration of the electrolyte or mobile-ion source."
+        },
+        "electrode_symmetry_control": {
+          "label": "Electrode symmetry control",
+          "description": "Control or matching of electrode materials and geometry."
+        }
+      }
+    },
+    "ReportingItem": {
+      "description": "A measurement or experimental detail needed for reproducible interpretation.",
+      "concepts": {
+        "internal_resistance": {
+          "label": "Internal resistance",
+          "description": "Reported internal resistance or equivalent resistance measurement."
+        },
+        "power_density": {
+          "label": "Power density",
+          "description": "Reported or reproducibly estimated power density."
+        },
+        "device_area": {
+          "label": "Device area",
+          "description": "Active or normalized device area used for performance reporting."
+        },
+        "film_thickness": {
+          "label": "Film thickness",
+          "description": "Thickness of the active film or transport layer."
+        },
+        "electrode_spacing": {
+          "label": "Electrode spacing",
+          "description": "Distance between electrodes in the tested device."
+        },
+        "humidity": {
+          "label": "Humidity",
+          "description": "Relative humidity or equivalent environmental water-activity condition."
+        },
+        "electrolyte_identity": {
+          "label": "Electrolyte identity",
+          "description": "Identity and composition of the electrolyte."
+        },
+        "electrolyte_concentration": {
+          "label": "Electrolyte concentration",
+          "description": "Concentration of the reported electrolyte."
+        },
+        "electrode_material": {
+          "label": "Electrode material",
+          "description": "Material identity of each electrode."
+        },
+        "electrode_symmetry": {
+          "label": "Electrode symmetry",
+          "description": "Whether electrode materials and relevant geometry are symmetric."
+        },
+        "stability_time": {
+          "label": "Stability time",
+          "description": "Duration and conditions of output stability testing."
+        },
+        "control_experiments": {
+          "label": "Control experiments",
+          "description": "Controls used to distinguish hydrovoltaic output from confounding effects."
+        }
+      }
+    }
+  },
+  "relation_types": {
+    "device_has_r_bin": {
+      "source_type": "DeviceRecord",
+      "target_type": "RBin",
+      "description": "Associates a device record with its derived resistance bin."
+    },
+    "device_has_power_bin": {
+      "source_type": "DeviceRecord",
+      "target_type": "PowerBin",
+      "description": "Associates a device record with its derived power bin."
+    },
+    "device_activates_pathway": {
+      "source_type": "DeviceRecord",
+      "target_type": "Pathway",
+      "description": "Associates a device context with a pathway selected by later manually defined rules."
+    },
+    "device_has_warning_flag": {
+      "source_type": "DeviceRecord",
+      "target_type": "WarningFlag",
+      "description": "Associates a device context with a warning emitted by later manually defined rules."
+    },
+    "pathway_targets_r_bin": {
+      "source_type": "Pathway",
+      "target_type": "RBin",
+      "description": "Identifies the resistance regime addressed by a pathway."
+    },
+    "pathway_targets_power_bin": {
+      "source_type": "Pathway",
+      "target_type": "PowerBin",
+      "description": "Identifies the power regime addressed by a pathway."
+    },
+    "pathway_uses_design_variable": {
+      "source_type": "Pathway",
+      "target_type": "DesignVariable",
+      "description": "Identifies a design variable relevant to a pathway."
+    },
+    "pathway_has_warning_flag": {
+      "source_type": "Pathway",
+      "target_type": "WarningFlag",
+      "description": "Identifies a warning that may qualify pathway interpretation."
+    },
+    "pathway_requires_reporting_item": {
+      "source_type": "Pathway",
+      "target_type": "ReportingItem",
+      "description": "Identifies information required to assess or report a pathway."
+    }
+  }
+}

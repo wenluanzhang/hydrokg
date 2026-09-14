@@ -1,0 +1,26 @@
+node_id,node_type,label,in_degree,out_degree,total_degree
+structure_class_001,StructureClass,porous,118,0,118
+ion_001,Ion,H+,101,0,101
+mechanism_002,Mechanism,ion_concentration_gradient,100,0,100
+electrode_002,Electrode,Carbon,96,0,96
+water_interaction_mode_003,WaterInteractionMode,vapor_adsorption,74,0,74
+water_interaction_mode_001,WaterInteractionMode,evaporation_driven,73,0,73
+asymmetry_origin_001,AsymmetryOrigin,environmental_gradient,72,0,72
+material_class_005,MaterialClass,biomass,53,0,53
+mechanism_001,Mechanism,streaming,52,0,52
+electrode_001,Electrode,CNT,48,0,48
+ion_004,Ion,Cl-,46,0,46
+electrode_008,Electrode,Ag,43,0,43
+material_class_001,MaterialClass,carbon,40,0,40
+electrode_012,Electrode,Au,35,0,35
+electrode_009,Electrode,Cu,34,0,34
+ion_003,Ion,Na+,32,0,32
+material_class_006,MaterialClass,polymer,30,0,30
+asymmetry_origin_004,AsymmetryOrigin,chemical,27,0,27
+structure_class_002,StructureClass,film,22,0,22
+electrolyte_003,Electrolyte,NaCl,21,0,21
+asymmetry_origin_005,AsymmetryOrigin,electrode + chemical,19,0,19
+asymmetry_origin_002,AsymmetryOrigin,chemical + environmental,18,0,18
+electrode_010,Electrode,Pt,18,0,18
+material_class_004,MaterialClass,metal oxide,17,0,17
+asymmetry_origin_007,AsymmetryOrigin,electrode,16,0,16

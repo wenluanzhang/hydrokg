@@ -1,0 +1,41 @@
+query_id,device_record_id,paper_doi,r_bin,material_class,structure_class,pathways_json,warning_flags_json,warning_profile
+high_power_warning_contexts,device_record_030,10.1038/s41467-022-34496-y,missing_R,carbon,porous,[],"[""incomplete_reporting_warning"",""missing_R_warning""]",reporting_warning_only
+high_power_warning_contexts,device_record_033,10.1002/eem2.70017,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_034,10.1002/adfm.202510747,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_035,10.1016/j.cej.2025.171723,high_R,metal oxide,porous,[],[],no_warning
+high_power_warning_contexts,device_record_036,10.1021/acsami.4c01026,high_R,carbon,porous,[],[],no_warning
+high_power_warning_contexts,device_record_037,10.1021/acsami.3c04726,low_R,carbon,porous,"[""connected_pore_ion_transport_pathway""]","[""incomplete_reporting_warning"",""missing_humidity_warning""]",reporting_warning_only
+high_power_warning_contexts,device_record_042,10.1039/d5cc02475g,missing_R,carbon,porous,[],"[""incomplete_reporting_warning"",""missing_R_warning"",""missing_humidity_warning""]",reporting_warning_only
+high_power_warning_contexts,device_record_059,10.1038/s41565-021-00903-6,high_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_062,10.1039/d2ee00030j,low_R,polymer,hydrogel + film,"[""film_based_ion_concentration_gradient_pathway"",""hydrated_network_ionic_conduction_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_063,10.1016/j.cej.2025.164788,low_R,biomass,hydrogel,"[""biomass_fiber_capillary_pathway"",""hydrated_network_ionic_conduction_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_064,10.1021/acsami.4c21266,low_R,polymer,hydrogel + porous,"[""hydrated_network_ionic_conduction_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_065,10.1021/acsami.4c03828,high_R,semiconductor,film,"[""film_based_ion_concentration_gradient_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_066,10.1016/j.cej.2024.153411,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_068,10.1038/s41467-025-60341-z,low_R,polymer,hydrogel,"[""hydrated_network_ionic_conduction_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_069,10.1039/C9EE00252A,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_070,10.1021/acsenergylett.3c00023,missing_R,semiconductor,film,"[""film_based_ion_concentration_gradient_pathway""]","[""incomplete_reporting_warning"",""missing_R_warning""]",reporting_warning_only
+high_power_warning_contexts,device_record_071,10.1002/adfm.202308620,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_072,10.1038/s41467-024-50396-9,low_R,polymer,hydrogel,"[""hydrated_network_ionic_conduction_pathway""]",[],no_warning
+high_power_warning_contexts,device_record_073,10.1016/j.nanoen.2024.110291,high_R,semiconductor,porous,[],[],no_warning
+high_power_warning_contexts,device_record_097,10.1016/j.nanoen.2020.105096,missing_R,carbon,porous,[],"[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning""]",mixed_warning
+high_power_warning_contexts,device_record_099,10.1016/j.nanoen.2025.110992,high_R,MOF/COF,porous,[],"[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_100,10.1002/adfm.202418823,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_humidity_warning""]",mixed_warning
+high_power_warning_contexts,device_record_101,10.1016/j.nanoen.2022.107241,missing_R,carbon,porous,[],"[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning"",""missing_humidity_warning""]",mixed_warning
+high_power_warning_contexts,device_record_102,10.1002/adfm.202531296,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_humidity_warning""]",mixed_warning
+high_power_warning_contexts,device_record_103,10.1021/acsnano.4c00990,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_104,10.1002/adma.202312209,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_humidity_warning""]",mixed_warning
+high_power_warning_contexts,device_record_105,10.1039/d0ee02730h,missing_R,composite,porous,[],"[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning""]",mixed_warning
+high_power_warning_contexts,device_record_107,10.1016/j.nanoen.2025.110731,high_R,metal oxide,porous,[],"[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_humidity_warning""]",mixed_warning
+high_power_warning_contexts,device_record_118,10.1016/j.carbon.2023.118687,low_R,carbon,porous,"[""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_149,10.1016/j.enconman.2025.120396,low_R,polymer,hydrogel + porous,"[""hydrated_network_ionic_conduction_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_150,10.1063/5.0083220,missing_R,semiconductor,porous,[],"[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning""]",mixed_warning
+high_power_warning_contexts,device_record_151,10.1038/s41467-023-41371-x,low_R,polymer,hydrogel + porous,"[""hydrated_network_ionic_conduction_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_152,10.1016/j.nanoen.2022.107709,high_R,biomass,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_153,10.1016/j.cej.2023.145325,missing_R,biomass,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning""]",mixed_warning
+high_power_warning_contexts,device_record_154,10.1038/s41467-022-30156-3,low_R,biomass,porous,"[""biomass_fiber_capillary_pathway"",""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_155,10.1002/advs.202300750,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_156,10.1016/j.cej.2023.142097,low_R,carbon,porous,"[""connected_pore_ion_transport_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_157,10.1039/d4ta05041j,missing_R,carbon,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning"",""incomplete_reporting_warning"",""missing_R_warning""]",mixed_warning
+high_power_warning_contexts,device_record_158,10.1002/adma.202103897,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only
+high_power_warning_contexts,device_record_159,10.1039/D3EE00843F,low_R,polymer,film,"[""film_based_ion_concentration_gradient_pathway""]","[""electrochemical_control_needed_warning""]",electrochemical_warning_only

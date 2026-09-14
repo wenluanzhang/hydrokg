@@ -1,0 +1,152 @@
+{
+  "query_set_name": "HydroKG Graph Queries",
+  "query_set_version": "1.0",
+  "queries": [
+    {
+      "query_id": "canonical_polymer_film_low_r_high_power",
+      "anchor": {
+        "node_type": "MaterialClass",
+        "label": "polymer",
+        "relation_type": "has_material_class"
+      },
+      "required_concepts": [
+        {
+          "node_type": "MaterialClass",
+          "label": "polymer",
+          "relation_type": "has_material_class"
+        },
+        {
+          "node_type": "StructureClass",
+          "label": "film",
+          "relation_type": "has_structure_class"
+        },
+        {
+          "node_type": "RBin",
+          "label": "low_R",
+          "relation_type": "device_has_r_bin"
+        },
+        {
+          "node_type": "PowerBin",
+          "label": "high_power",
+          "relation_type": "device_has_power_bin"
+        }
+      ]
+    },
+    {
+      "query_id": "exact_nacl_primary_na_context",
+      "anchor": {
+        "node_type": "Electrolyte",
+        "label": "NaCl",
+        "relation_type": "uses_electrolyte"
+      },
+      "required_concepts": [
+        {
+          "node_type": "Electrolyte",
+          "label": "NaCl",
+          "relation_type": "uses_electrolyte"
+        },
+        {
+          "node_type": "Ion",
+          "label": "Na+",
+          "relation_type": "has_primary_mobile_ion"
+        }
+      ]
+    },
+    {
+      "query_id": "low_r_material_structure_routes",
+      "query_type": "material_structure_routes",
+      "anchor": {
+        "node_type": "RBin",
+        "label": "low_R",
+        "relation_type": "device_has_r_bin"
+      },
+      "retrieved_concepts": [
+        {
+          "node_type": "MaterialClass",
+          "relation_type": "has_material_class",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "StructureClass",
+          "relation_type": "has_structure_class",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "PowerBin",
+          "relation_type": "device_has_power_bin",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "Pathway",
+          "relation_type": "device_activates_pathway",
+          "cardinality": "many"
+        },
+        {
+          "node_type": "WarningFlag",
+          "relation_type": "device_has_warning_flag",
+          "cardinality": "many"
+        }
+      ]
+    },
+    {
+      "query_id": "high_power_warning_contexts",
+      "query_type": "high_power_warning_contexts",
+      "anchor": {
+        "node_type": "PowerBin",
+        "label": "high_power",
+        "relation_type": "device_has_power_bin"
+      },
+      "retrieved_concepts": [
+        {
+          "node_type": "RBin",
+          "relation_type": "device_has_r_bin",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "MaterialClass",
+          "relation_type": "has_material_class",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "StructureClass",
+          "relation_type": "has_structure_class",
+          "cardinality": "one"
+        },
+        {
+          "node_type": "Pathway",
+          "relation_type": "device_activates_pathway",
+          "cardinality": "many"
+        },
+        {
+          "node_type": "WarningFlag",
+          "relation_type": "device_has_warning_flag",
+          "cardinality": "many"
+        }
+      ]
+    },
+    {
+      "query_id": "pathway_design_and_reporting_requirements",
+      "query_type": "pathway_design_and_reporting_requirements",
+      "anchor": {
+        "node_type": "Pathway"
+      },
+      "retrieved_concepts": [
+        {
+          "node_type": "DesignVariable",
+          "relation_type": "pathway_uses_design_variable",
+          "direction": "forward"
+        },
+        {
+          "node_type": "ReportingItem",
+          "relation_type": "pathway_requires_reporting_item",
+          "direction": "forward"
+        },
+        {
+          "node_type": "DeviceRecord",
+          "relation_type": "device_activates_pathway",
+          "direction": "reverse"
+        }
+      ]
+    }
+  ]
+}

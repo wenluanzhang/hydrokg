@@ -1,0 +1,272 @@
+{
+  "metadata_name": "HydroKG Reporting Field Provenance",
+  "metadata_version": "1.0",
+  "source_table": "data/raw/hydrovoltaic_ml_curated_159_seed.csv",
+  "provenance_categories": [
+    "experimental_measurement",
+    "experimental_condition",
+    "reported_device_context",
+    "literature_assigned_label",
+    "analyst_derived",
+    "derived_numeric"
+  ],
+  "fields": [
+    {
+      "field": "voc_V",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_measurement",
+      "display_label": "Open-circuit voltage",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Voltage reported for the experimental device."
+    },
+    {
+      "field": "jsc_uA_cm2",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_measurement",
+      "display_label": "Short-circuit current density",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Current density reported for the experimental device."
+    },
+    {
+      "field": "power_density_uW_cm2",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_measurement",
+      "display_label": "Reported power density",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Power density explicitly reported in the literature record."
+    },
+    {
+      "field": "internal_resistance_Mohm",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_measurement",
+      "display_label": "Internal resistance",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Literature-reported device-level operating-state resistance, commonly inferred from load-dependent measurements; not a standardized dry-state intrinsic material resistance."
+    },
+    {
+      "field": "stability_time_min",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_measurement",
+      "display_label": "Stability time",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Duration of the reported output-stability measurement."
+    },
+    {
+      "field": "rh_percent",
+      "denominator_mode": "all_records",
+      "provenance_category": "experimental_condition",
+      "display_label": "Relative humidity",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Relative humidity reported for the experimental condition."
+    },
+    {
+      "field": "inorganic_electrolyte_concentration_wt%",
+      "denominator_mode": "conditional",
+      "applicability_match": "any",
+      "applicability_conditions": [
+        {
+          "field": "inorganic_electrolyte_present",
+          "operator": "equals",
+          "value": 1
+        },
+        {
+          "field": "inorganic_electrolyte_type",
+          "operator": "is_not_missing"
+        },
+        {
+          "field": "inorganic_electrolyte_concentration_wt%",
+          "operator": "is_not_missing"
+        }
+      ],
+      "provenance_category": "experimental_condition",
+      "display_label": "Inorganic electrolyte concentration",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Inorganic electrolyte concentration curated from the literature record; completeness is assessed only where inorganic-electrolyte context is applicable."
+    },
+    {
+      "field": "active_material_raw",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Active material",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Active-material description curated from the literature record."
+    },
+    {
+      "field": "device_structure",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Device structure",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Normalized device structure curated from the literature record."
+    },
+    {
+      "field": "primary_mobile_ion",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Primary mobile ion",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Normalized primary mobile-ion context curated from the literature record."
+    },
+    {
+      "field": "inorganic_electrolyte_type",
+      "denominator_mode": "conditional",
+      "applicability_match": "any",
+      "applicability_conditions": [
+        {
+          "field": "inorganic_electrolyte_present",
+          "operator": "equals",
+          "value": 1
+        },
+        {
+          "field": "inorganic_electrolyte_type",
+          "operator": "is_not_missing"
+        },
+        {
+          "field": "inorganic_electrolyte_concentration_wt%",
+          "operator": "is_not_missing"
+        }
+      ],
+      "provenance_category": "reported_device_context",
+      "display_label": "Inorganic electrolyte type",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Inorganic electrolyte identity curated from the literature record; completeness is assessed only where inorganic-electrolyte context is applicable."
+    },
+    {
+      "field": "top_electrode",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Top electrode",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Top-electrode material curated from the literature record."
+    },
+    {
+      "field": "bottom_electrode",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Bottom electrode",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Bottom-electrode material curated from the literature record."
+    },
+    {
+      "field": "electrode_symmetry",
+      "denominator_mode": "all_records",
+      "provenance_category": "reported_device_context",
+      "display_label": "Electrode symmetry",
+      "include_in_figure2f": true,
+      "include_in_reporting_checklist": true,
+      "interpretation_note": "Normalized electrode-symmetry context curated from the literature record."
+    },
+    {
+      "field": "dominant_mechanism",
+      "denominator_mode": "all_records",
+      "provenance_category": "literature_assigned_label",
+      "display_label": "Dominant mechanism",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Mechanism label assigned from the literature interpretation, not a direct measurement."
+    },
+    {
+      "field": "water_interaction_mode",
+      "denominator_mode": "all_records",
+      "provenance_category": "literature_assigned_label",
+      "display_label": "Water interaction mode",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Water-interaction label assigned during literature curation."
+    },
+    {
+      "field": "ion_origin",
+      "denominator_mode": "all_records",
+      "provenance_category": "literature_assigned_label",
+      "display_label": "Ion origin",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Ion-origin label assigned from literature context."
+    },
+    {
+      "field": "material_class",
+      "denominator_mode": "all_records",
+      "provenance_category": "analyst_derived",
+      "display_label": "Material class",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Normalized material class assigned by HydroKG analysts."
+    },
+    {
+      "field": "structure_class",
+      "denominator_mode": "all_records",
+      "provenance_category": "analyst_derived",
+      "display_label": "Structure class",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Normalized structure class assigned by HydroKG analysts."
+    },
+    {
+      "field": "ion_type",
+      "denominator_mode": "all_records",
+      "provenance_category": "analyst_derived",
+      "display_label": "Ion type",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Simplified ion category derived during HydroKG analysis."
+    },
+    {
+      "field": "mechanism_simple",
+      "denominator_mode": "all_records",
+      "provenance_category": "analyst_derived",
+      "display_label": "Simplified mechanism",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Simplified mechanism category derived from curated labels."
+    },
+    {
+      "field": "has_internal_resistance",
+      "denominator_mode": "all_records",
+      "provenance_category": "analyst_derived",
+      "display_label": "Has internal resistance",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Boolean indicator derived from internal-resistance availability."
+    },
+    {
+      "field": "estimated_power_density_uW_cm2",
+      "denominator_mode": "all_records",
+      "provenance_category": "derived_numeric",
+      "display_label": "Estimated power density",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Analyst-derived P_est = V_oc * J_sc / 4, with V_oc in V, J_sc in uA/cm2, and P_est in uW/cm2."
+    },
+    {
+      "field": "log_estimated_power_density",
+      "denominator_mode": "all_records",
+      "provenance_category": "derived_numeric",
+      "display_label": "Log estimated power density",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Analyst-derived log10(P_est + 1e-6); not source-reported power."
+    },
+    {
+      "field": "log_internal_resistance_Mohm",
+      "denominator_mode": "all_records",
+      "provenance_category": "derived_numeric",
+      "display_label": "Log internal resistance",
+      "include_in_figure2f": false,
+      "include_in_reporting_checklist": false,
+      "interpretation_note": "Analyst-derived log10(R / MOhm) for the operating-state device resistance."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+material_class,structure_class,device_count,r_reported_count,low_R_count,high_power_count,low_R_high_power_count,median_internal_resistance_Mohm,median_estimated_power_density_uW_cm2,median_log_estimated_power_density
+MOF/COF,porous,6,3,1,1,0,3.0,0.6148375,-0.34341824299999996
+biomass,film,8,3,1,2,0,0.13,0.384375,-0.467740319
+biomass,hydrogel,3,3,3,1,1,0.08,1.458625,0.163943951
+biomass,porous,42,33,16,7,7,0.12,0.13125,-0.8830080920000001
+carbon,film,1,0,0,1,0,,81.25,1.909823375
+carbon,porous,39,27,12,8,3,0.49,0.20705,-0.683922668
+composite,hydrogel,1,0,0,0,0,,1.1875,0.074633984
+composite,porous,2,1,1,1,0,0.019,412.5313875,0.8571237945000001
+metal oxide,film,1,1,0,0,0,0.22,0.4819,-0.317042172
+metal oxide,porous,16,11,1,2,0,1.1,0.09675,-1.020176618
+others,porous,1,1,0,0,0,1.0,0.01,-1.999956573
+polymer,film,10,8,6,7,6,0.045,21.025,1.322219315
+polymer,hydrogel,10,7,6,2,2,0.01,1.19375,0.076907796
+polymer,hydrogel + film,1,1,1,1,1,0.04,10.137,1.005909489
+polymer,hydrogel + porous,4,4,4,3,3,0.015,6.0305,0.7802960405
+polymer,porous,5,3,2,0,0,0.036,0.1,-0.999995657
+semiconductor,film,2,1,0,2,0,1.46,8.865625,0.8691611445
+semiconductor,porous,7,5,1,2,0,2.0,0.119,-0.924449389

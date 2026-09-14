@@ -1,0 +1,5 @@
+activated_pathway,match_count,fraction_of_devices
+biomass_fiber_capillary_pathway,20,0.12578616352201258
+connected_pore_ion_transport_pathway,34,0.2138364779874214
+film_based_ion_concentration_gradient_pathway,13,0.08176100628930817
+hydrated_network_ionic_conduction_pathway,14,0.0880503144654088

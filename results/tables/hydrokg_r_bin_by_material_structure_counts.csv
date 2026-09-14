@@ -1,0 +1,55 @@
+material_class,structure_class,r_bin,device_count
+MOF/COF,porous,missing_R,3
+MOF/COF,porous,low_R,1
+MOF/COF,porous,high_R,2
+biomass,film,missing_R,5
+biomass,film,low_R,1
+biomass,film,high_R,2
+biomass,hydrogel,missing_R,0
+biomass,hydrogel,low_R,3
+biomass,hydrogel,high_R,0
+biomass,porous,missing_R,9
+biomass,porous,low_R,16
+biomass,porous,high_R,17
+carbon,film,missing_R,1
+carbon,film,low_R,0
+carbon,film,high_R,0
+carbon,porous,missing_R,12
+carbon,porous,low_R,12
+carbon,porous,high_R,15
+composite,hydrogel,missing_R,1
+composite,hydrogel,low_R,0
+composite,hydrogel,high_R,0
+composite,porous,missing_R,1
+composite,porous,low_R,1
+composite,porous,high_R,0
+metal oxide,film,missing_R,0
+metal oxide,film,low_R,0
+metal oxide,film,high_R,1
+metal oxide,porous,missing_R,5
+metal oxide,porous,low_R,1
+metal oxide,porous,high_R,10
+others,porous,missing_R,0
+others,porous,low_R,0
+others,porous,high_R,1
+polymer,film,missing_R,2
+polymer,film,low_R,6
+polymer,film,high_R,2
+polymer,hydrogel,missing_R,3
+polymer,hydrogel,low_R,6
+polymer,hydrogel,high_R,1
+polymer,hydrogel + film,missing_R,0
+polymer,hydrogel + film,low_R,1
+polymer,hydrogel + film,high_R,0
+polymer,hydrogel + porous,missing_R,0
+polymer,hydrogel + porous,low_R,4
+polymer,hydrogel + porous,high_R,0
+polymer,porous,missing_R,2
+polymer,porous,low_R,2
+polymer,porous,high_R,1
+semiconductor,film,missing_R,1
+semiconductor,film,low_R,0
+semiconductor,film,high_R,1
+semiconductor,porous,missing_R,2
+semiconductor,porous,low_R,1
+semiconductor,porous,high_R,4

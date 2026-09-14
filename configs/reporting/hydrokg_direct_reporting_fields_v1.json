@@ -1,0 +1,56 @@
+{
+  "configuration_name": "HydroKG Manuscript Source-Reporting Fields",
+  "configuration_version": "1.0",
+  "status": "manuscript",
+  "source_table": "data/raw/hydrovoltaic_ml_curated_159_seed.csv",
+  "metadata_dictionary": "configs/metadata/hydrokg_seed_field_metadata_v1.json",
+  "legacy_configuration": {
+    "source": "configs/reporting/hydrokg_reporting_fields_v1.json",
+    "description": "legacy configured reporting-field availability",
+    "interpretation_boundary": "The legacy reporting-field configuration is retained for reproducibility and must not be described as direct literature-reporting completeness."
+  },
+  "groups": [
+    {
+      "group_id": "core_source_reporting_fields",
+      "display_label": "Core source-reporting fields",
+      "denominator_scope": "all_device_records",
+      "expected_denominator": 159,
+      "aggregate_score_inclusion": true,
+      "fields": [
+        "active_material_raw",
+        "device_structure",
+        "primary_mobile_ion",
+        "top_electrode",
+        "bottom_electrode",
+        "voc_V",
+        "jsc_uA_cm2",
+        "power_density_uW_cm2",
+        "internal_resistance_Mohm",
+        "stability_time_min",
+        "rh_percent"
+      ]
+    },
+    {
+      "group_id": "conditional_source_reporting_fields",
+      "display_label": "Conditional source-reporting fields",
+      "denominator_scope": "applicable_device_records",
+      "applicability_field": "inorganic_electrolyte_present",
+      "aggregate_score_inclusion": false,
+      "non_applicable_handling": "not_missing",
+      "fields": [
+        "inorganic_electrolyte_type",
+        "inorganic_electrolyte_concentration_wt%"
+      ]
+    },
+    {
+      "group_id": "normalized_context_descriptor",
+      "display_label": "Normalized context descriptor",
+      "denominator_scope": "all_device_records",
+      "aggregate_score_inclusion": false,
+      "reason": "curator-normalized descriptor; retained as context but excluded from the direct-reporting score",
+      "fields": [
+        "electrode_symmetry"
+      ]
+    }
+  ]
+}

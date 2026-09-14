@@ -1,0 +1,67 @@
+{
+  "schema_name": "HydroKG Device-Rule Evidence Provenance",
+  "schema_version": "1.0",
+  "description": "A non-scoring provenance ledger for existing HydroKG device-rule matches. Evidence types describe source and inference provenance without claiming causal or experimental validation.",
+  "evidence_types": [
+    "dataset_association",
+    "literature_reported",
+    "physics_informed",
+    "expert_hypothesis",
+    "experimentally_validated"
+  ],
+  "evidence_roles": [
+    "matched_context",
+    "pathway_inference",
+    "warning_basis",
+    "limitation"
+  ],
+  "source_kinds": [
+    "seed_field",
+    "derived_field",
+    "rule_definition",
+    "source_paper"
+  ],
+  "validation_statuses": [
+    "not_assessed"
+  ],
+  "context_evidence_mapping": {
+    "experimental_measurement": "literature_reported",
+    "experimental_condition": "literature_reported",
+    "reported_device_context": "literature_reported",
+    "literature_assigned_label": "literature_reported",
+    "analyst_derived": "dataset_association",
+    "derived_numeric": "dataset_association"
+  },
+  "unconfigured_condition_field_provenance": {
+    "r_bin": "analyst_derived",
+    "high_power_flag": "analyst_derived",
+    "auxiliary_redox_present": "reported_device_context",
+    "metal_electrode": "analyst_derived"
+  },
+  "inference_evidence_mapping": {
+    "descriptive_pathway": "physics_informed",
+    "rule_missing_r_reporting_gap_v1": "dataset_association",
+    "rule_missing_humidity_reporting_gap_v1": "dataset_association",
+    "rule_electrochemical_confounding_v1": "physics_informed"
+  },
+  "output_columns": [
+    "evidence_record_id",
+    "device_record_id",
+    "paper_doi",
+    "rule_id",
+    "rule_type",
+    "activated_pathway",
+    "warning_flags_json",
+    "matched_context_json",
+    "source_fields_json",
+    "source_values_json",
+    "source_provenance_categories_json",
+    "context_evidence_types_json",
+    "inference_evidence_type",
+    "evidence_role",
+    "validation_status",
+    "manual_review_required",
+    "evidence_note",
+    "limitation_note"
+  ]
+}
