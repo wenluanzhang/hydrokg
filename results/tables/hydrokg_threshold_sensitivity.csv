@@ -1,0 +1,10 @@
+resistance_ceiling_Mohm,power_quantile,power_cutoff_uW_cm2,matched_count,matched_device_ids_json,added_device_ids_json,removed_device_ids_json
+0.05,0.70,2.7875,5,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_158"",""device_record_159""]",[],"[""device_record_155""]"
+0.05,0.75,3.640625,5,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_158"",""device_record_159""]",[],"[""device_record_155""]"
+0.05,0.80,5.685,5,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_158"",""device_record_159""]",[],"[""device_record_155""]"
+0.10,0.70,2.7875,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]
+0.10,0.75,3.640625,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]
+0.10,0.80,5.685,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]
+0.20,0.70,2.7875,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]
+0.20,0.75,3.640625,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]
+0.20,0.80,5.685,6,"[""device_record_069"",""device_record_071"",""device_record_104"",""device_record_155"",""device_record_158"",""device_record_159""]",[],[]

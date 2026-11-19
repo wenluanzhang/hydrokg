@@ -86,6 +86,33 @@ result in `results/tables/hydrokg_semantic_ablation_audit.csv`. It is a
 deterministic check that the released rule-derived context is sufficient for the
 reported query membership; it does not extend the graph.
 
+### Reproduce the R3 threshold and selection checks
+
+Use the Python and pandas environment from section A. The checks read the frozen
+seed at `data/raw/hydrovoltaic_ml_curated_159_seed.csv`, the canonical definition
+in `configs/queries/hydrokg_graph_queries_v1.json`, and the released integrated
+graph and query CSVs in `results/tables/`. Run from the repository root.
+
+```bash
+python scripts/reproduce_r3_checks.py
+```
+
+- `results/tables/hydrokg_threshold_sensitivity.csv` reports the estimated-power
+  cutoffs, exact membership and differences from the canonical six for the nine
+  tested combinations. The power quantiles use the full seed and linear
+  interpolation. Both resistance and power comparisons include their boundaries.
+- `results/tables/hydrokg_flat_table_graph_comparison.csv` records matching IDs
+  independently selected from the seed and the graph. The script checks all
+  four stages against the frozen trace (`30 -> 10 -> 6 -> 6`). The comparison
+  joins the released graph evidence to the matched seed rows for reporting and
+  electrode-control follow-up. It records individual edge witnesses from the
+  previously in-memory inspection separately from the saved selection paths.
+
+The grid measures membership at the tested thresholds. Selection parity shows
+equivalent membership. The warning and requirement fields identify reporting
+and control questions for source follow-up. Missing values express gaps in the
+curated seed, and source-paper inspection and experimental validation remain open.
+
 ## F. Validate the frozen outputs
 
 ```bash
